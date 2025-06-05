@@ -1,7 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using SuperMarketManagement.Core;
+using SuperMarketManagement.Core.Dtos;
 using SuperMarketManagement.Models;
+using SuperMarketManagement.Core;
 
 namespace SuperMarketManagement.Controllers
 {
@@ -16,10 +17,35 @@ namespace SuperMarketManagement.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Category>> GetCategories()
+        public async Task<IEnumerable<CategoryDto>> GetCategories()
         {
-            return await _dataBaseContext.Categories
-                .Select(x => x).ToListAsync();
+            var categories = await _dataBaseContext.Categories.ToListAsync();
+            List<CategoryDto> categoryDtos = new List<CategoryDto>();
+            foreach (var category in categories)
+            {
+                categoryDtos.Add(new CategoryDto
+                {
+                    Id = category.CategoryID,
+                    Name = category.CategoryName
+                });
+            }
+            return categoryDtos;
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddCategory(CategoryDto categoryInfo)
+        {
+            var category = new Category
+            {
+                CategoryName = categoryInfo.Name
+            };
+            _dataBaseContext.Categories.Add(category);
+            await _dataBaseContext.SaveChangesAsync();
+            return Ok(new CategoryDto
+            {
+                Id = category.CategoryID,
+                Name = category.CategoryName
+            });
         }
     }
 }

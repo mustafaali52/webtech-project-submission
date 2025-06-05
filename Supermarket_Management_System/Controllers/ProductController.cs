@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Infrastructure;
-using SuperMarketManagement.Core;
+using SuperMarketManagement.Core.Dtos;
 using SuperMarketManagement.Models;
+using SuperMarketManagement.Core;
 
 namespace SuperMarketManagement.Controllers
 {
@@ -17,11 +17,47 @@ namespace SuperMarketManagement.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Product>> GetProducts()
+        public async Task<IEnumerable<ProductDto>> GetProducts()
         {
-            return await _dataBaseContext.Products
-                .Select(x => x).ToListAsync();
+            var products = await _dataBaseContext.Products.ToListAsync();
+            List<ProductDto> productDtos = new List<ProductDto>();
+            foreach (var product in products)
+            {
+                productDtos.Add(new ProductDto
+                {
+                    Id = product.ProductID,
+                    Name = product.Name,
+                    Price = product.UnitPrice,
+                    Quantity = product.QuantityInStock,
+                    CategoryId = product.CategoryID,
+                    SupplierId = product.SupplierID
+                });
+            }
+            return productDtos;
         }
 
+        [HttpPost]
+        public async Task<IActionResult> AddProduct(ProductDto productInfo)
+        {
+            var product = new Product
+            {
+                Name = productInfo.Name,
+                UnitPrice = productInfo.Price,
+                QuantityInStock = productInfo.Quantity,
+                CategoryID = productInfo.CategoryId,
+                SupplierID = productInfo.SupplierId
+            };
+            _dataBaseContext.Products.Add(product);
+            await _dataBaseContext.SaveChangesAsync();
+            return Ok(new ProductDto
+            {
+                Id = product.ProductID,
+                Name = product.Name,
+                Price = product.UnitPrice,
+                Quantity = product.QuantityInStock,
+                CategoryId = product.CategoryID,
+                SupplierId = product.SupplierID
+            });
+        }
     }
 }
