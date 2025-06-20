@@ -1,0 +1,6 @@
+@SWEEP_HostAddress = http://localhost:5153
+
+GET {{SWEEP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
