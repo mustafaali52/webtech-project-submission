@@ -1,0 +1,41 @@
+<div class="container-fluid mt-4">
+  <div class="d-flex justify-content-between align-items-center mb-3 flex-wrap">
+    <h2 class="mb-2">Departments</h2>
+    <button class="btn btn-secondary mb-2" (click)="goToDashboard()">← Back to Dashboard</button>
+  </div>
+
+  <input
+    type="text"
+    class="form-control mb-3"
+    placeholder="Search Departments"
+    [(ngModel)]="searchTerm"
+    (input)="searchDepartments()"
+  />
+
+  <button class="btn btn-primary mb-3" (click)="goToCreate()">Add Department</button>
+
+  <div class="table-responsive">
+    <table class="table table-bordered table-hover w-100" style="min-width: 900px;">
+      <thead class="table-dark d-none d-md-table-header-group">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Description</th>
+          <th style="width: 150px;">Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let dept of filteredDepartments" class="d-block d-md-table-row mb-3 mb-md-0 border rounded p-3 p-md-0">
+          <td data-label="ID" class="d-block d-md-table-cell">{{ dept.id }}</td>
+          <td data-label="Name" class="d-block d-md-table-cell">{{ dept.name }}</td>
+          <td data-label="Description" class="d-block d-md-table-cell">{{ dept.description }}</td>
+          <td data-label="Actions" class="d-block d-md-table-cell">
+            <button class="btn btn-sm btn-info me-2 mb-2 mb-md-0" (click)="goToEdit(dept.id)">Edit</button>
+            <button class="btn btn-sm btn-danger" (click)="goToDelete(dept.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+  

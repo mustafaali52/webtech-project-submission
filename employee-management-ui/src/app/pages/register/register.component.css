@@ -1,0 +1,71 @@
+.register-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  padding: 2rem;
+}
+
+.register-container {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  box-sizing: border-box;
+}
+
+input.form-control,
+select.form-select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background-color: #f9f9f9;
+}
+
+button.btn-primary {
+  background-color: #2575fc;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: 100%;
+}
+
+button.btn-primary:hover {
+  background-color: #1a5ed9;
+}
+.extra-links a.btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.extra-links a.btn-outline-secondary {
+  border: 2px solid #f8f1f1;
+  color: #fbf6f6;
+  background-color: #2575fc;
+}
+
+.extra-links a.btn-outline-secondary:hover {
+  background-color: #1036f3;
+  border-color: #040be0;
+}
+
+.extra-links .link-primary {
+  color: #2575fc;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.extra-links .link-primary:hover {
+  color: #1a5ed9;
+  text-decoration: underline;
+}

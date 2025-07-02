@@ -1,0 +1,136 @@
+<header class="header">
+  <div class="container header-container">
+    <div class="logo">
+      <a routerLink="/" class="logo-link">EMS</a>
+    </div>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+        <li class="nav-item"><a routerLink="/about" routerLinkActive="active">About</a></li>
+        <li class="nav-item"><a routerLink="/features" routerLinkActive="active">Features</a></li>
+        <li class="nav-item"><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="auth-buttons-header">
+      <button routerLink="/login" class="btn btn-login">Login</button>
+      <button routerLink="/register" class="btn btn-register">Register</button>
+    </div>
+  </div>
+</header>
+
+<main class="main-content">
+  <section class="landing-section" id="home">
+    <div class="landing-container container">
+      <div class="content">
+        <h1>Employee Management System</h1>
+        <p>
+          Streamline HR operations with an all-in-one platform. Manage employees, track attendance, assign roles, and generate reports with ease.
+        </p>
+        <ul class="features-list">
+          <li>✅ Smart role-based access control</li>
+          <li>✅ Secure login & registration with JWT</li>
+          <li>✅ Attendance tracking & analytics</li>
+          <li>✅ Profile management with image uploads</li>
+          <li>✅ Search, filter, and export reports</li>
+        </ul>
+      </div>
+      <div class="auth-panel">
+        <h2>Get Started</h2>
+        <div class="auth-buttons">
+          <button routerLink="/login" class="btn btn-primary">Login</button>
+          <button routerLink="/register" class="btn btn-secondary">Register</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section container" id="about">
+    <h2>About Employee Management System</h2>
+   
+    <div class="about-details">
+      <article>
+        <h3>Efficient Management</h3>
+        <p>Manage all employee data, roles, and attendance records from one central platform.</p>
+      </article>
+      <article>
+        <h3>Analytics & Reporting</h3>
+        <p>Generate detailed reports to track performance, attendance, and workforce trends.</p>
+      </article>
+      <article>
+        <h3>Secure & Reliable</h3>
+        <p>Secure login with JWT authentication ensures your data is protected.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features-section container" id="features">
+  
+    <h2>Features</h2>
+    <div class="features-grid">
+      <article class="feature-card">
+        <h3>Role-Based Access Control</h3>
+        <p>Assign roles and permissions to employees ensuring the right data access.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Attendance Tracking</h3>
+        <p>Keep track of employee attendance and integrate with payroll systems.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Profile Management</h3>
+        <p>Employees can manage their profiles and update information easily.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Reports & Exports</h3>
+        <p>Generate, filter, and export reports in multiple formats.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Secure Login</h3>
+        <p>JWT-based secure authentication for users with different roles.</p>
+      </article>
+      <article class="feature-card">
+        <h3>Mobile Friendly</h3>
+        <p>Responsive design ensures usability across devices.</p>
+      </article>
+    </div>
+    
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions? Need support? Reach out to us via the form below.</p>
+    <form class="contact-form" (ngSubmit)="onSubmit()" #contactForm="ngForm" novalidate>
+      <div class="form-group">
+        <label for="name">Name <span>*</span></label>
+        <input type="text" id="name" name="name" required ngModel />
+      </div>
+      <div class="form-group">
+        <label for="email">Email <span>*</span></label>
+        <input type="email" id="email" name="email" required ngModel />
+      </div>
+      <div class="form-group">
+        <label for="message">Message <span>*</span></label>
+        <textarea id="message" name="message" rows="5" required ngModel></textarea>
+      </div>
+      <button type="submit" [disabled]="!contactForm.form.valid" class="btn btn-primary">Send Message</button>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-info">
+      <p>&copy; 2025 Employee Management System. All rights reserved.</p>
+       <div >
+      <p>Follow us on social media for updates and support.</p>
+      </div>
+    </div>
+    <div class="social-icons">
+      <a href="#" aria-label="Facebook" title="Facebook" class="social-icon">FB</a>
+      <a href="#" aria-label="Twitter" title="Twitter" class="social-icon">TW</a>
+      <a href="#" aria-label="LinkedIn" title="LinkedIn" class="social-icon">IN</a>
+    </div>
+  </div>
+</footer>

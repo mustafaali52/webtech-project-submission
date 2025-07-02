@@ -1,0 +1,29 @@
+<h2>Performance Reviews</h2>
+
+<table *ngIf="reviews.length > 0; else noData" class="review-table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Employee ID</th>
+      <th>Reviewer</th>
+      <th>Comments</th>
+      <th>Review Date</th>
+      <th>Rating</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let review of reviews; index as i">
+      <td data-label="#">{{ i + 1 }}</td>
+    <td data-label="Employee ID">{{ review.employeeId }}</td>
+<td data-label="Reviewer">{{ review.reviewer }}</td>
+<td data-label="Comments">{{ review.comments }}</td>
+<td data-label="Review Date">{{ review.reviewDate | date: 'mediumDate' }}</td>
+<td data-label="Rating">{{ review.rating }}</td>
+      
+    </tr>
+  </tbody>
+</table>
+
+<ng-template #noData>
+  <p>No performance reviews found.</p>
+</ng-template>

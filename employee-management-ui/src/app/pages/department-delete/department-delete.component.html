@@ -1,0 +1,10 @@
+<div class="container mt-4">
+  <h2>Delete Department</h2>
+
+  <p>Are you sure you want to delete department "<strong>{{ departmentName }}</strong>"?</p>
+
+  <div *ngIf="errorMsg" class="alert alert-danger">{{ errorMsg }}</div>
+
+  <button class="btn btn-danger" (click)="onDelete()" [disabled]="loading">Delete</button>
+  <button class="btn btn-secondary ms-2" (click)="onCancel()" [disabled]="loading">Cancel</button>
+</div>

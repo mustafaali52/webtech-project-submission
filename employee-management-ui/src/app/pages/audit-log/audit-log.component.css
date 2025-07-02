@@ -1,0 +1,28 @@
+.audit-log-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f0f0f0;
+}
+
+.loading,
+.error,
+.no-data {
+  margin-top: 15px;
+  color: #777;
+}

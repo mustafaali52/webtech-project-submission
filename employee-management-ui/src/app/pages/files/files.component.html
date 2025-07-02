@@ -1,0 +1,18 @@
+<div class="file-upload-container">
+  <h2>Upload File</h2>
+
+  <label for="file">Choose File:</label>
+  <input type="file" id="file" (change)="onFileSelected($event)" />
+
+  <div class="input-group">
+    <label for="employeeId">Employee ID:</label>
+    <input type="number" id="employeeId" [(ngModel)]="employeeId" />
+  </div>
+
+  <div class="input-group">
+    <label for="userId">User ID:</label>
+    <input type="number" id="userId" [(ngModel)]="userId" />
+  </div>
+
+  <button (click)="uploadFile()">Upload</button>
+</div>

@@ -1,0 +1,80 @@
+<div class="container">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-content">
+      <h1 class="logo">EMS Pro</h1>
+      <nav class="nav">
+        <a
+          *ngFor="let link of filteredNavLinks"
+          [routerLink]="link.route"
+          class="nav-link"
+        >
+          <i [class]="link.icon + ' icon'"></i> {{ link.label }}
+        </a>
+      </nav>
+    </div>
+    <div class="logout-section">
+      <button class="logout-btn" (click)="logout()">Logout</button>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Header -->
+    <div class="header">
+      <div class="user-info">
+        <h2 class="greeting">Good Morning, {{ userName }}!</h2>
+        <p class="role-info">Your role: <strong>{{ role }}</strong></p>
+      </div>
+      <div class="search-bar">
+        <input
+          type="text"
+          placeholder="Search..."
+          class="search-input"
+          [(ngModel)]="searchTerm"
+        />
+      </div>
+    </div>
+
+    <!-- Quick Access Buttons -->
+    <div class="quick-access">
+      <button
+        *ngFor="let btn of filteredQuickButtons"
+        [routerLink]="btn.route"
+        class="quick-btn"
+        [ngClass]="btn.color"
+      >
+        <i *ngIf="btn.icon" [class]="btn.icon"></i><br />
+        {{ btn.label }}
+      </button>
+    </div>
+
+    <!-- Statistics Section (Only for Admin/Manager) -->
+    <div class="stats" *ngIf="role !== 'Employee'">
+      <div class="stat-card">
+        <h3 class="stat-title">Employee Overview</h3>
+        <div class="stat">Total: {{ employeeStats.total }}</div>
+        <div class="stat green-text">Active: {{ employeeStats.active }}</div>
+        <div class="stat red-text">Inactive: {{ employeeStats.inactive }}</div>
+      </div>
+      <div class="stat-card">
+        <h3 class="stat-title">Leave Statistics</h3>
+        <div class="stat">Pending: {{ leaveStats.pending }}</div>
+        <div class="stat yellow-text">Approved: {{ leaveStats.approved }}</div>
+        <div class="stat red-text">Rejected: {{ leaveStats.rejected }}</div>
+      </div>
+      <div class="stat-card">
+        <h3 class="stat-title">System Logs</h3>
+        <div class="stat">Logins today: {{ systemLogs.loginsToday }}</div>
+        <div class="stat green-text">Successful: {{ systemLogs.successful }}</div>
+        <div class="stat red-text">Failed: {{ systemLogs.failed }}</div>
+      </div>
+    </div>
+
+    <!-- Chart (Visible to All) -->
+    <div class="chart-section">
+      <h3 class="chart-title">Performance Chart</h3>
+      <canvas id="performanceChart"></canvas>
+    </div>
+  </main>
+</div>

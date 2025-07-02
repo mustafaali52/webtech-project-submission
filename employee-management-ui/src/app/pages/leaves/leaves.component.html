@@ -1,0 +1,37 @@
+<div class="page-wrapper">
+  <div class="container mt-4">
+    <h3>Leave Requests</h3>
+    <table class="table table-bordered">
+    <thead class="table-dark">
+      <tr>
+        <th>ID</th>
+        <th>Employee ID</th>
+        <th>Start</th>
+        <th>End</th>
+        <th>Reason</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let leave of leaves">
+        <td>{{ leave.id }}</td>
+        <td>{{ leave.employeeId }}</td>
+        <td>{{ leave.startDate | date }}</td>
+        <td>{{ leave.endDate | date }}</td>
+        <td>{{ leave.reason }}</td>
+        <td>{{ leave.status }}</td>
+        <td>
+          <button class="btn btn-success btn-sm me-1" (click)="approveLeave(leave.id)" [disabled]="leave.status !== 'Pending'">Approve</button>
+          <button class="btn btn-danger btn-sm" (click)="rejectLeave(leave.id)" [disabled]="leave.status !== 'Pending'">Reject</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="text-center mt-4">
+  <a routerLink="/dashboard" class="btn btn-primary">Back to Dashboard</a>
+</div>
+  
+  
+</div>
+</div>

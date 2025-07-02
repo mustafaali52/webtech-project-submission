@@ -1,0 +1,72 @@
+<div class="container mt-4">
+  <h2 class="mb-3">Performance Reviews</h2>
+
+  <form [formGroup]="reviewForm" (ngSubmit)="submitReview()" class="mb-4">
+    <div class="row g-3">
+      <div class="col-md-2">
+        <input formControlName="employeeId" type="number" class="form-control" placeholder="Employee ID" required>
+      </div>
+      <div class="col-md-2">
+        <input formControlName="reviewer" type="text" class="form-control" placeholder="Reviewer" required>
+      </div>
+      <div class="col-md-2">
+        <input formControlName="reviewDate" type="date" class="form-control" required>
+      </div>
+      <div class="col-md-2">
+        <input formControlName="rating" type="number" class="form-control" placeholder="Rating (1-5)" required min="1" max="5">
+      </div>
+      <div class="col-md-2">
+        <input formControlName="score" type="number" class="form-control" placeholder="Score" required>
+      </div>
+      <div class="col-12">
+        <textarea formControlName="comments" class="form-control" rows="3" placeholder="Comments" required></textarea>
+      </div>
+      <div class="col-12 text-end">
+        <button type="submit" class="btn btn-success me-2" [disabled]="reviewForm.invalid">
+          {{ editingReviewId ? 'Update Review' : 'Submit Review' }}
+        </button>
+        <button *ngIf="editingReviewId" type="button" class="btn btn-secondary" (click)="cancelEdit()">Cancel</button>
+      </div>
+    </div>
+  </form>
+
+  <div *ngIf="reviews.length > 0">
+    <table class="table table-bordered">
+      <thead class="table-dark">
+        <tr>
+          <th>Employee ID</th>
+          <th>Reviewer</th>
+          <th>Review Date</th>
+          <th>Comments</th>
+          <th>Rating</th>
+          <th>Score</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let review of reviews">
+          <td>{{ review.employeeId }}</td>
+          <td>{{ review.reviewer }}</td>
+          <td>{{ review.reviewDate | date: 'yyyy-MM-dd' }}</td>
+          <td>{{ review.comments }}</td>
+          <td>{{ review.rating }}</td>
+          <td>{{ review.score }}</td>
+          <td class="action-buttons">
+  <button class="edit-btn btn-sm me-2" (click)="editReview(review)">Edit</button>
+  <button class="delete-btn btn-sm" (click)="deleteReview(review.id)">Delete</button>
+</td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div *ngIf="reviews.length === 0" class="alert alert-info">
+    No performance reviews available.
+  </div>
+</div>
+<div class="text-center mt-4">
+  <button class="btn btn-outline-primary px-4 py-2" (click)="navigateToDashboard()">
+    ← Back to Dashboard
+  </button>
+</div>

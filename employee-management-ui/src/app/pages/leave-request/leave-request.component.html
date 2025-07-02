@@ -1,0 +1,42 @@
+<h2>Leave Requests</h2>
+
+<form (ngSubmit)="submitLeave()">
+  <label>Employee ID:</label>
+  <input type="number" [(ngModel)]="newLeave.employeeId" name="employeeId" required />
+
+  <label>Start Date:</label>
+  <input type="date" [(ngModel)]="newLeave.startDate" name="startDate" required />
+
+  <label>End Date:</label>
+  <input type="date" [(ngModel)]="newLeave.endDate" name="endDate" required />
+
+  <label>Reason:</label>
+  <input type="text" [(ngModel)]="newLeave.reason" name="reason" required />
+
+  <button type="submit">Submit Leave</button>
+</form>
+
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Employee ID</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Reason</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let leave of leaves">
+      <td>{{ leave.id }}</td>
+      <td>{{ leave.employeeId }}</td>
+      <td>{{ leave.startDate | date }}</td>
+      <td>{{ leave.endDate | date }}</td>
+      <td>{{ leave.reason }}</td>
+      <td>{{ leave.status }}</td>
+    </tr>
+  </tbody>
+</table>

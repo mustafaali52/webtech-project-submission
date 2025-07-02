@@ -1,0 +1,32 @@
+<div class="container mt-4">
+  <div class="header-bar">
+    <h3>Department List</h3>
+    <button class="btn-back" (click)="goToDashboard()">← Back to Dashboard</button>
+  </div>
+
+  <div class="search-bar mb-3">
+    <input
+      type="text"
+      class="form-control"
+      placeholder="Search departments..."
+      [(ngModel)]="searchTerm"
+    />
+  </div>
+
+  <table class="table table-bordered custom-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let dept of filteredDepartments">
+        <td>{{ dept.id }}</td>
+        <td>{{ dept.name }}</td>
+        <td>{{ dept.description }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

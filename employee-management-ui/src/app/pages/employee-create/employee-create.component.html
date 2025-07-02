@@ -1,0 +1,28 @@
+<div class="container mt-4">
+  <h3>Create New Employee</h3>
+  <form (ngSubmit)="createEmployee()">
+    <div class="form-group">
+      <label>Full Name</label>
+      <input [(ngModel)]="employee.fullName" name="fullName" class="form-control" required />
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input [(ngModel)]="employee.email" name="email" type="email" class="form-control" required />
+    </div>
+    <div class="form-group">
+      <label>Job Title</label>
+      <input [(ngModel)]="employee.jobTitle" name="jobTitle" class="form-control" required />
+    </div>
+    <div class="form-group">
+      <label>Salary</label>
+      <input [(ngModel)]="employee.salary" name="salary" type="number" class="form-control" required />
+    </div>
+    <div class="form-group">
+      <label>Department</label>
+      <select [(ngModel)]="employee.departmentId" name="departmentId" class="form-control" required>
+        <option *ngFor="let dept of departments" [value]="dept.id">{{ dept.name }}</option>
+      </select>
+    </div>
+    <button class="btn btn-primary mt-3" type="submit">Create</button>
+  </form>
+</div>

@@ -1,0 +1,62 @@
+<div class="employees">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="mb-0">Employees</h2>
+    <div>
+      <a routerLink="/employees/create" class="btn btn-success me-2">Add Employee</a>
+      <a routerLink="/dashboard" class="btn btn-outline-secondary">Back to Dashboard</a>
+    </div>
+  </div>
+
+  <div *ngIf="errorMessage" class="alert alert-danger">
+    {{ errorMessage }}
+  </div>
+
+  <input
+    type="text"
+    class="form-control mb-3"
+    placeholder="Search by name..."
+    [(ngModel)]="searchTerm"
+  />
+
+  <table class="table table-bordered table-hover" *ngIf="filteredEmployees.length">
+    <thead class="table-dark">
+      <tr>
+        <th>ID</th>
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Department ID</th>
+        <th>Job Title</th>
+        <th>Salary</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let emp of filteredEmployees">
+        <td>{{ emp.id }}</td>
+        <td>{{ emp.fullName }}</td>
+        <td>{{ emp.email }}</td>
+        <td>{{ emp.departmentId }}</td>
+        <td>{{ emp.jobTitle }}</td>
+        <td>{{ emp.salary | currency:'PKR' }}</td>
+        <td>
+          <button
+            class="btn btn-sm btn-primary me-2"
+            [routerLink]="['/employees/edit', emp.id]"
+          >
+            Edit
+          </button>
+          <button
+            class="btn btn-sm btn-danger"
+            (click)="deleteEmployee(emp.id)"
+          >
+            Delete
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p *ngIf="!filteredEmployees.length && !errorMessage">
+    No employees found.
+  </p>
+</div>

@@ -1,0 +1,36 @@
+<div class="container mt-4">
+  <h2>Edit Department</h2>
+
+  <form [formGroup]="departmentForm" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+      <label for="name" class="form-label">Name *</label>
+      <input
+        id="name"
+        class="form-control"
+        type="text"
+        formControlName="name"
+        [class.is-invalid]="
+          departmentForm.get('name')?.invalid && departmentForm.get('name')?.touched
+        "
+      />
+      <div *ngIf="departmentForm.get('name')?.invalid && departmentForm.get('name')?.touched" class="invalid-feedback">
+        Name is required.
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="description" class="form-label">Description</label>
+      <textarea
+        id="description"
+        class="form-control"
+        formControlName="description"
+        rows="3"
+      ></textarea>
+    </div>
+
+    <div *ngIf="errorMsg" class="alert alert-danger">{{ errorMsg }}</div>
+
+    <button class="btn btn-primary" [disabled]="loading">Save</button>
+    <button type="button" class="btn btn-secondary ms-2" (click)="onCancel()">Cancel</button>
+  </form>
+</div>
