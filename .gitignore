@@ -1,0 +1,6 @@
+node_modules/
+bookcart-frontend/node_modules/
+dist/
+.env
+bookcart-frontend/.angular/
+bookcart-frontend/.angular/cache/

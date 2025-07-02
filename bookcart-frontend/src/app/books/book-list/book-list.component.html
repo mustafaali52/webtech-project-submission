@@ -1,0 +1,145 @@
+<div class="book-list-container">
+  <!-- Header Section -->
+  <div class="header-section">
+    <div class="page-title">
+      <h1>
+        <mat-icon>library_books</mat-icon>
+        Discover Amazing Books
+      </h1>
+      <p>Find your next favorite read from our extensive collection</p>
+    </div>
+
+    <!-- Admin Actions -->
+    <div class="admin-actions" *ngIf="isAdmin()">
+      <button mat-raised-button color="primary" routerLink="/admin/books/add">
+        <mat-icon>add</mat-icon>
+        Add New Book
+      </button>
+    </div>
+  </div>
+
+  <!-- Filters Section -->
+  <div class="filters-section">
+    <mat-card class="filters-card">
+      <div class="filters-content">
+        <!-- Category Filter -->
+        <mat-form-field appearance="outline" class="filter-field">
+          <mat-label>Category</mat-label>
+          <mat-select [(value)]="selectedCategoryId" (selectionChange)="onCategoryChange()">
+            <mat-option [value]="null">All Categories</mat-option>
+            <mat-option *ngFor="let category of categories" [value]="category.categoryId">
+              {{ category.categoryName }}
+            </mat-option>
+          </mat-select>
+          <mat-icon matSuffix>category</mat-icon>
+        </mat-form-field>
+
+        <!-- Sort Options -->
+        <mat-form-field appearance="outline" class="filter-field">
+          <mat-label>Sort By</mat-label>
+          <mat-select [(value)]="sortBy" (selectionChange)="onSortChange()">
+            <mat-option value="title">Title</mat-option>
+            <mat-option value="author">Author</mat-option>
+            <mat-option value="price">Price</mat-option>
+            <mat-option value="createdDate">Date Added</mat-option>
+          </mat-select>
+          <mat-icon matSuffix>sort</mat-icon>
+        </mat-form-field>
+
+        <mat-form-field appearance="outline" class="filter-field">
+          <mat-label>Order</mat-label>
+          <mat-select [(value)]="sortDirection" (selectionChange)="onSortChange()">
+            <mat-option value="asc">Ascending</mat-option>
+            <mat-option value="desc">Descending</mat-option>
+          </mat-select>
+          <mat-icon matSuffix>swap_vert</mat-icon>
+        </mat-form-field>
+
+        <!-- Clear Filters -->
+        <button mat-stroked-button (click)="clearFilters()" class="clear-filters-btn">
+          <mat-icon>clear</mat-icon>
+          Clear Filters
+        </button>
+      </div>
+    </mat-card>
+  </div>
+
+  <!-- Loading Spinner -->
+  <div class="loading-container" *ngIf="isLoading">
+    <mat-spinner diameter="50"></mat-spinner>
+    <p>Loading books...</p>
+  </div>
+
+  <!-- Books Grid -->
+  <div class="books-grid" *ngIf="!isLoading">
+    <!-- No Books Message -->
+    <div class="no-books-message" *ngIf="filteredBooks.length === 0">
+      <mat-icon>search_off</mat-icon>
+      <h3>No books found</h3>
+      <p>Try adjusting your search criteria or browse all books.</p>
+      <button mat-raised-button color="primary" (click)="clearFilters()">
+        Browse All Books
+      </button>
+    </div>
+
+    <!-- Book Cards -->
+    <mat-card class="book-card" *ngFor="let book of filteredBooks">
+      <!-- Book Image -->
+      <div class="book-image-container">
+        <img [src]="book.imageUrl || 'assets/images/book-placeholder.jpg'"
+             [alt]="book.title"
+             class="book-image"
+             (error)="onImageError($event)">
+        
+        <!-- Stock Badge -->
+        <div class="stock-badge" [class.low-stock]="book.stockQuantity <= 5">
+          {{ book.stockQuantity }} in stock
+        </div>
+      </div>
+
+      <!-- Book Content -->
+      <mat-card-content class="book-content">
+        <div class="book-category">
+          <mat-chip color="primary" selected>{{ book.categoryName }}</mat-chip>
+        </div>
+        
+        <h3 class="book-title">{{ book.title }}</h3>
+        <p class="book-author">by {{ book.author }}</p>
+        <p class="book-description">{{ book.description }}</p>
+        
+        <div class="book-price">
+          <span class="price">${{ book.price | number:'1.2-2' }}</span>
+        </div>
+      </mat-card-content>
+
+      <!-- Book Actions -->
+      <mat-card-actions class="book-actions">
+        <div class="user-actions">
+          <button mat-raised-button 
+                  color="primary" 
+                  (click)="addToCart(book)"
+                  [disabled]="book.stockQuantity === 0">
+            <mat-icon>add_shopping_cart</mat-icon>
+            {{ book.stockQuantity === 0 ? 'Out of Stock' : 'Add to Cart' }}
+          </button>
+        </div>
+
+        <!-- Admin Actions -->
+        <div class="admin-actions" *ngIf="isAdmin()">
+          <button mat-icon-button 
+                  color="accent" 
+                  (click)="editBook(book)"
+                  matTooltip="Edit Book">
+            <mat-icon>edit</mat-icon>
+          </button>
+          <button mat-icon-button 
+                  color="warn" 
+                  (click)="deleteBook(book)"
+                  matTooltip="Delete Book">
+            <mat-icon>delete</mat-icon>
+          </button>
+        </div>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

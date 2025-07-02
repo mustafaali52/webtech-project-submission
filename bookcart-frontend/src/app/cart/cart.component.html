@@ -1,0 +1,158 @@
+<div class="cart-container">
+  <!-- Header -->
+  <div class="cart-header">
+    <h1>
+      <mat-icon>shopping_cart</mat-icon>
+      Shopping Cart
+    </h1>
+    <p *ngIf="cart">{{ getTotalItems() }} item(s) in your cart</p>
+  </div>
+
+  <!-- Loading Spinner -->
+  <div class="loading-container" *ngIf="isLoading">
+    <mat-spinner diameter="50"></mat-spinner>
+    <p>Loading your cart...</p>
+  </div>
+
+  <!-- Empty Cart -->
+  <div class="empty-cart" *ngIf="!isLoading && !cart">
+    <mat-card class="empty-cart-card">
+      <mat-card-content>
+        <div class="empty-cart-content">
+          <mat-icon class="empty-cart-icon">shopping_cart</mat-icon>
+          <h2>Your cart is empty</h2>
+          <p>Looks like you haven't added any books to your cart yet.</p>
+          <button mat-raised-button color="primary" (click)="continueShopping()">
+            <mat-icon>library_books</mat-icon>
+            Start Shopping
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <!-- Cart with Items -->
+  <div class="cart-content" *ngIf="!isLoading && cart && cart.cartItems.length > 0">
+    <!-- Cart Items -->
+    <div class="cart-items">
+      <mat-card class="cart-item" *ngFor="let item of cart.cartItems">
+        <div class="item-content">
+          <!-- Book Image -->
+          <div class="item-image">
+            <img [src]="item.bookImageUrl || 'assets/images/book-placeholder.jpg'"
+                 [alt]="item.bookTitle"
+                 (error)="onImageError($event)">
+          </div>
+
+          <!-- Book Details -->
+          <div class="item-details">
+            <h3 class="item-title">{{ item.bookTitle }}</h3>
+            <p class="item-author">by {{ item.bookAuthor }}</p>
+            <p class="item-price">
+              <span class="unit-price">${{ item.unitPrice | number:'1.2-2' }}</span>
+              <span class="price-label">each</span>
+            </p>
+          </div>
+
+          <!-- Quantity Controls -->
+          <div class="item-quantity">
+            <label>Quantity:</label>
+            <div class="quantity-controls">
+              <button mat-icon-button 
+                      (click)="updateQuantity(item, item.quantity - 1)"
+                      [disabled]="isUpdating || item.quantity <= 1">
+                <mat-icon>remove</mat-icon>
+              </button>
+              
+              <span class="quantity-display">{{ item.quantity }}</span>
+              
+              <button mat-icon-button 
+                      (click)="updateQuantity(item, item.quantity + 1)"
+                      [disabled]="isUpdating">
+                <mat-icon>add</mat-icon>
+              </button>
+            </div>
+          </div>
+
+          <!-- Item Total -->
+          <div class="item-total">
+            <p class="total-label">Total:</p>
+            <p class="total-price">${{ item.totalPrice | number:'1.2-2' }}</p>
+          </div>
+
+          <!-- Remove Button -->
+          <div class="item-actions">
+            <button mat-icon-button 
+                    color="warn" 
+                    (click)="removeItem(item)"
+                    [disabled]="isUpdating"
+                    matTooltip="Remove from cart">
+              <mat-icon>delete</mat-icon>
+            </button>
+          </div>
+        </div>
+      </mat-card>
+    </div>
+
+    <!-- Cart Summary -->
+    <div class="cart-summary">
+      <mat-card class="summary-card">
+        <mat-card-header>
+          <mat-card-title>Order Summary</mat-card-title>
+        </mat-card-header>
+        
+        <mat-card-content>
+          <div class="summary-row">
+            <span>Items ({{ getTotalItems() }}):</span>
+            <span>${{ getTotalAmount() | number:'1.2-2' }}</span>
+          </div>
+          
+          <div class="summary-row">
+            <span>Shipping:</span>
+            <span class="free-shipping">FREE</span>
+          </div>
+          
+          <mat-divider></mat-divider>
+          
+          <div class="summary-row total-row">
+            <span>Total:</span>
+            <span class="total-amount">${{ getTotalAmount() | number:'1.2-2' }}</span>
+          </div>
+        </mat-card-content>
+        
+        <mat-card-actions class="summary-actions">
+          <button mat-raised-button 
+                  color="primary" 
+                  class="checkout-btn"
+                  (click)="proceedToCheckout()"
+                  [disabled]="isUpdating">
+            <mat-icon>payment</mat-icon>
+            Proceed to Checkout
+          </button>
+          
+          <button mat-stroked-button 
+                  (click)="continueShopping()"
+                  class="continue-shopping-btn">
+            <mat-icon>arrow_back</mat-icon>
+            Continue Shopping
+          </button>
+          
+          <button mat-button 
+                  color="warn" 
+                  (click)="clearCart()"
+                  [disabled]="isUpdating"
+                  class="clear-cart-btn">
+            <mat-icon>clear_all</mat-icon>
+            Clear Cart
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </div>
+  </div>
+
+  <!-- Updating Overlay -->
+  <div class="updating-overlay" *ngIf="isUpdating">
+    <mat-spinner diameter="40"></mat-spinner>
+    <p>Updating cart...</p>
+  </div>
+</div>

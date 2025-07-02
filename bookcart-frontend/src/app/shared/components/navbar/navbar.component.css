@@ -1,0 +1,142 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  height: 64px;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.brand mat-icon {
+  margin-right: 8px;
+  font-size: 28px;
+  height: 28px;
+  width: 28px;
+}
+
+.brand-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.search-container {
+  flex: 1;
+  max-width: 400px;
+  margin: 0 24px;
+}
+
+.search-field {
+  width: 100%;
+}
+
+.search-field ::ng-deep .mat-form-field-wrapper {
+  padding-bottom: 0;
+}
+
+.search-field ::ng-deep .mat-form-field-infix {
+  border-top: none;
+}
+
+.search-field ::ng-deep .mat-form-field-outline {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+.search-field ::ng-deep .mat-form-field-outline-thick {
+  color: white;
+}
+
+.search-field ::ng-deep .mat-form-field-label {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-field ::ng-deep input {
+  color: white;
+}
+
+.search-icon {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.search-icon:hover {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-links button {
+  color: white;
+}
+
+.nav-links button.active {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.cart-button {
+  margin-right: 8px;
+}
+
+.user-menu {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.user-menu span {
+  margin: 0 4px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar-content {
+    padding: 0 8px;
+  }
+  
+  .search-container {
+    max-width: 200px;
+    margin: 0 12px;
+  }
+  
+  .brand-text {
+    display: none;
+  }
+  
+  .nav-links button span {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-container {
+    display: none;
+  }
+  
+  .nav-links {
+    gap: 4px;
+  }
+}

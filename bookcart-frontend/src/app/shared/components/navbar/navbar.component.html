@@ -1,0 +1,83 @@
+<mat-toolbar color="primary" class="navbar">
+  <div class="navbar-content">
+    <!-- Logo/Brand -->
+    <div class="brand" routerLink="/books">
+      <mat-icon>book</mat-icon>
+      <span class="brand-text">BookCart</span>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="search-container">
+      <mat-form-field appearance="outline" class="search-field">
+        <mat-label>Search books...</mat-label>
+        <input matInput 
+               [(ngModel)]="searchTerm" 
+               (keyup.enter)="onSearch()"
+               placeholder="Search by title, author, or description">
+        <mat-icon matSuffix (click)="onSearch()" class="search-icon">search</mat-icon>
+      </mat-form-field>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="nav-links">
+      <button mat-button routerLink="/books" routerLinkActive="active">
+        <mat-icon>library_books</mat-icon>
+        Books
+      </button>
+
+      <!-- User Menu -->
+      <ng-container *ngIf="isAuthenticated(); else authButtons">
+        <!-- Cart Button -->
+        <button mat-icon-button (click)="goToCart()" class="cart-button">
+          <mat-icon [matBadge]="cartItemCount" 
+                    [matBadgeHidden]="cartItemCount === 0" 
+                    matBadgeColor="accent">shopping_cart</mat-icon>
+        </button>
+
+        <!-- User Menu -->
+        <button mat-button [matMenuTriggerFor]="userMenu" class="user-menu">
+          <mat-icon>account_circle</mat-icon>
+          <span>{{ currentUser?.firstName }}</span>
+          <mat-icon>arrow_drop_down</mat-icon>
+        </button>
+
+        <mat-menu #userMenu="matMenu">
+          <button mat-menu-item (click)="goToProfile()">
+            <mat-icon>person</mat-icon>
+            <span>Profile</span>
+          </button>
+          <button mat-menu-item (click)="goToOrders()">
+            <mat-icon>receipt_long</mat-icon>
+            <span>My Orders</span>
+          </button>
+          <mat-divider *ngIf="isAdmin()"></mat-divider>
+          <button mat-menu-item (click)="goToAdminPanel()" *ngIf="isAdmin()">
+            <mat-icon>admin_panel_settings</mat-icon>
+            <span>Admin Panel</span>
+          </button>
+          <button mat-menu-item routerLink="/admin/books/add" *ngIf="isAdmin()">
+            <mat-icon>add</mat-icon>
+            <span>Add Book</span>
+          </button>
+          <mat-divider></mat-divider>
+          <button mat-menu-item (click)="logout()">
+            <mat-icon>logout</mat-icon>
+            <span>Logout</span>
+          </button>
+        </mat-menu>
+      </ng-container>
+
+      <!-- Auth Buttons (when not logged in) -->
+      <ng-template #authButtons>
+        <button mat-button routerLink="/login">
+          <mat-icon>login</mat-icon>
+          Login
+        </button>
+        <button mat-raised-button color="accent" routerLink="/register">
+          <mat-icon>person_add</mat-icon>
+          Register
+        </button>
+      </ng-template>
+    </div>
+  </div>
+</mat-toolbar>
