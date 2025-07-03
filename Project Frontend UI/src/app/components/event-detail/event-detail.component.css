@@ -1,0 +1,48 @@
+/* event-detail.component.css */
+
+.event-detail-container {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.event-detail-container h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.event-detail-container p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.event-detail-container strong {
+  color: #555;
+}
+
+.event-detail-container button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.event-detail-container button:hover {
+  background-color: #0056b3;
+}
+
+.event-detail-container button:last-child {
+  background-color: #6c757d;
+}
+
+.event-detail-container button:last-child:hover {
+  background-color: #5a6268;
+}

@@ -1,0 +1,21 @@
+<mat-toolbar color="primary" class="navbar">
+    <ng-container>
+        <a mat-button routerLink="/products" routerLinkActive="active">Products</a>
+         <ng-container *ngIf="!isAuthenticated()">
+            <a mat-button routerLink="/login" routerLinkActive="active" >Login</a>
+            <a mat-button routerLink="/register" routerLinkActive="active">Register</a>
+         </ng-container>
+         <ng-container *ngIf="isAuthenticated()">
+             <button mat-button [matMenuTriggerFor]="userMenu">
+                <mat-icon>account_circle</mat-icon>
+                {{ userName }}
+                </button>
+                <mat-menu #userMenu="matMenu">
+            <button mat-menu-item (click)="logout()">
+                <mat-icon>logout</mat-icon>
+                Logout
+            </button>
+            </mat-menu>
+         </ng-container>
+    </ng-container>
+</mat-toolbar>

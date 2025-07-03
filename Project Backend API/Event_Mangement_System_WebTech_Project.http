@@ -1,0 +1,6 @@
+@Event_Mangement_System_WebTech_Project_HostAddress = http://localhost:5297
+
+GET {{Event_Mangement_System_WebTech_Project_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

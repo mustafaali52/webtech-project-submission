@@ -1,0 +1,17 @@
+<div *ngIf="event">
+  <h2>{{ event.eventTitle }}</h2>
+  <p><strong>Description:</strong> {{ event.description }}</p>
+  <p><strong>Start Date:</strong> {{ event.startDate | date:'medium' }}</p>
+  <p><strong>End Date:</strong> {{ event.endDate | date:'medium' }}</p>
+  <p><strong>Organizer ID:</strong> {{ event.organizerId }}</p>
+  <p><strong>Location ID:</strong> {{ event.locationId }}</p>
+  <p><strong>Created At:</strong> {{ event.createdAt | date:'medium' }}</p>
+
+  <button (click)="editEvent()">Edit Event</button>
+  <button (click)="deleteEvent()">Delete Event</button>
+  <button routerLink="/events">Back to List</button>
+</div>
+
+<div *ngIf="!event">
+  <p>Event not found.</p>
+</div>

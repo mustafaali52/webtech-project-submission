@@ -1,0 +1,33 @@
+<h2>Event Types</h2>
+
+<div class="controls">
+  <input type="text" [(ngModel)]="searchTerm" placeholder="Search by type name">
+  <button (click)="searchEventTypes()">Search</button>
+  <button (click)="addEventType()">Add New Event Type</button>
+</div>
+
+<div *ngIf="eventTypes.length > 0">
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Type Name</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let eventType of eventTypes">
+        <td>{{ eventType.typeId }}</td>
+        <td>{{ eventType.typeName }}</td>
+        <td>
+          <button (click)="editEventType(eventType.typeId)">Edit</button>
+          <button (click)="deleteEventType(eventType.typeId)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div *ngIf="eventTypes.length === 0">
+  <p>No event types found.</p>
+</div>

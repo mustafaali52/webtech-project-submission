@@ -1,0 +1,15 @@
+<div class="event-type-form-container">
+  <h2>{{ isEditMode ? 'Edit Event Type' : 'Create New Event Type' }}</h2>
+  <form [formGroup]="eventTypeForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="typeName">Type Name:</label>
+      <input id="typeName" type="text" formControlName="typeName" required>
+      <div *ngIf="eventTypeForm.get('typeName')?.invalid && eventTypeForm.get('typeName')?.touched" class="error-message">
+        Type Name is required.
+      </div>
+    </div>
+
+    <button type="submit" [disabled]="eventTypeForm.invalid">{{ isEditMode ? 'Update Event Type' : 'Create Event Type' }}</button>
+    <button type="button" (click)="cancel()">Cancel</button>
+  </form>
+</div>

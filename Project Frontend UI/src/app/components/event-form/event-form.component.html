@@ -1,0 +1,60 @@
+<div class="event-form-container">
+  <h2>{{ isEditMode ? 'Edit Event' : 'Create New Event' }}</h2>
+  <form [formGroup]="eventForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="eventTitle">Event Title:</label>
+      <input id="eventTitle" type="text" formControlName="eventTitle" required>
+      <div *ngIf="eventForm.get('eventTitle')?.invalid && eventForm.get('eventTitle')?.touched" class="error-message">
+        Event Title is required.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="eventTypeId">Event Type ID:</label>
+      <input id="eventTypeId" type="number" formControlName="eventTypeId" required>
+      <div *ngIf="eventForm.get('eventTypeId')?.invalid && eventForm.get('eventTypeId')?.touched" class="error-message">
+        Event Type ID is required.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="description">Description:</label>
+      <textarea id="description" formControlName="description"></textarea>
+    </div>
+
+    <div class="form-group">
+      <label for="startDate">Start Date:</label>
+      <input id="startDate" type="datetime-local" formControlName="startDate" required>
+      <div *ngIf="eventForm.get('startDate')?.invalid && eventForm.get('startDate')?.touched" class="error-message">
+        Start Date is required.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="endDate">End Date:</label>
+      <input id="endDate" type="datetime-local" formControlName="endDate" required>
+      <div *ngIf="eventForm.get('endDate')?.invalid && eventForm.get('endDate')?.touched" class="error-message">
+        End Date is required.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="organizerId">Organizer ID:</label>
+      <input id="organizerId" type="number" formControlName="organizerId" required>
+      <div *ngIf="eventForm.get('organizerId')?.invalid && eventForm.get('organizerId')?.touched" class="error-message">
+        Organizer ID is required.
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="locationId">Location ID:</label>
+      <input id="locationId" type="number" formControlName="locationId" required>
+      <div *ngIf="eventForm.get('locationId')?.invalid && eventForm.get('locationId')?.touched" class="error-message">
+        Location ID is required.
+      </div>
+    </div>
+
+    <button type="submit" [disabled]="eventForm.invalid">{{ isEditMode ? 'Update Event' : 'Create Event' }}</button>
+    <button type="button" (click)="cancel()">Cancel</button>
+  </form>
+</div>
