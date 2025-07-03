@@ -110,21 +110,6 @@ App runs at: [http://localhost:4200](http://localhost:4200)
 
 ---
 
-## 🌄 Screenshots
-
-> 📌 Replace these with real screenshots in your project under \`/screenshots\` folder
-
-### 🔐 Login Page
-![Login](./screenshots/login.png)
-
-### 🎛️ Admin Dashboard
-![Admin Dashboard](./screenshots/admin-dashboard.png)
-
-### 📅 Event List (Attendee)
-![Event List](./screenshots/event-list.png)
-
----
-
 ## 🌍 Environment Configuration
 
 ### Backend - \`appsettings.Development.json\`
@@ -153,11 +138,3 @@ export const environment = {
 Feel free to fork the repo, raise issues, and submit pull requests.
 
 ---
-
-## 📃 License
-
-This project is licensed under the MIT License.
-
----
-
-> Built with ❤️ using .NET & Angular
