@@ -1,0 +1,475 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HMS(1) - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|d:\\hms(1) - copy\\hospitalmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|d:\\hms(1) - copy\\hospitalmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|d:\\hms(1) - copy\\hospitalmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1895590-0B7B-4CDC-B2D5-51688489536D}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|d:\\hms(1) - copy\\hospitalmanagement.infrastructure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C1895590-0B7B-4CDC-B2D5-51688489536D}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|solutionrelative:hospitalmanagement.infrastructure\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1895590-0B7B-4CDC-B2D5-51688489536D}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|d:\\hms(1) - copy\\hospitalmanagement.infrastructure\\persistence\\applicationdbcontextfactory..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1895590-0B7B-4CDC-B2D5-51688489536D}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|solutionrelative:hospitalmanagement.infrastructure\\persistence\\applicationdbcontextfactory..cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1895590-0B7B-4CDC-B2D5-51688489536D}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|d:\\hms(1) - copy\\hospitalmanagement.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1895590-0B7B-4CDC-B2D5-51688489536D}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|solutionrelative:hospitalmanagement.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|d:\\hms(1) - copy\\hospitalmanagement.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|d:\\hms(1) - copy\\hospitalmanagement.application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\services\\appointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|d:\\hms(1) - copy\\hospitalmanagement.application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|d:\\hms(1) - copy\\hospitalmanagement.application\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\services\\doctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|d:\\hms(1) - copy\\hospitalmanagement.api\\hospitalmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\hospitalmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HMS(1) - Copy\\HospitalManagement.API.csproj||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HospitalManagement.API.csproj||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\HMS(1) - Copy\\HospitalManagement.Domain.csproj||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:HospitalManagement.Domain.csproj||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hms(1) - copy\\hospitalmanagement.domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\doctor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hms(1) - copy\\hospitalmanagement.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hms(1) - copy\\hospitalmanagement.domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\appointment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hms(1) - copy\\hospitalmanagement.domain\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hms(1) - copy\\hospitalmanagement.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hms(1) - copy\\hospitalmanagement.domain\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hms(1) - copy\\hospitalmanagement.domain\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\interfaces\\iappointmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|d:\\hms(1) - copy\\hospitalmanagement.application\\hospitalmanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\hospitalmanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hms(1) - copy\\hospitalmanagement.domain\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\interfaces\\iapplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hms(1) - copy\\hospitalmanagement.domain\\hospitalmanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\hospitalmanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1895590-0B7B-4CDC-B2D5-51688489536D}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|d:\\hms(1) - copy\\hospitalmanagement.infrastructure\\hospitalmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1895590-0B7B-4CDC-B2D5-51688489536D}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|solutionrelative:hospitalmanagement.infrastructure\\hospitalmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1895590-0B7B-4CDC-B2D5-51688489536D}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|d:\\hms(1) - copy\\hospitalmanagement.infrastructure\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1895590-0B7B-4CDC-B2D5-51688489536D}|HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj|solutionrelative:hospitalmanagement.infrastructure\\data\\hospitaldbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hms(1) - copy\\hospitalmanagement.domain\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hms(1) - copy\\hospitalmanagement.domain\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\interfaces\\idoctorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|d:\\hms(1) - copy\\hospitalmanagement.application\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Infrastructure\\appsettings.json",
+              "RelativeDocumentMoniker": "HospitalManagement.Infrastructure\\appsettings.json",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Infrastructure\\appsettings.json",
+              "RelativeToolTip": "HospitalManagement.Infrastructure\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T14:02:37.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContextFactory..cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Infrastructure\\Persistence\\ApplicationDbContextFactory..cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Infrastructure\\Persistence\\ApplicationDbContextFactory..cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Infrastructure\\Persistence\\ApplicationDbContextFactory..cs",
+              "RelativeToolTip": "HospitalManagement.Infrastructure\\Persistence\\ApplicationDbContextFactory..cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T13:57:44.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\Program.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.API\\Program.cs",
+              "RelativeToolTip": "HospitalManagement.API\\Program.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAuwGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:46:08.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeToolTip": "HospitalManagement.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:46:59.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HospitalManagement.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:36:52.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Application\\Services\\AuthService.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "HospitalManagement.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAuwFUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:24:19.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.API\\appsettings.json",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\appsettings.json",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.API\\appsettings.json",
+              "RelativeToolTip": "HospitalManagement.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-12T13:33:29.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppointmentService.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\Services\\AppointmentService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Application\\Services\\AppointmentService.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\Services\\AppointmentService.cs",
+              "RelativeToolTip": "HospitalManagement.Application\\Services\\AppointmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:12:53.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Application\\Services\\PatientService.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\Services\\PatientService.cs",
+              "RelativeToolTip": "HospitalManagement.Application\\Services\\PatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:48:19.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoctorService.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\Services\\DoctorService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Application\\Services\\DoctorService.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\Services\\DoctorService.cs",
+              "RelativeToolTip": "HospitalManagement.Application\\Services\\DoctorService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:49:01.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HospitalManagement.API.csproj",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.API\\HospitalManagement.API.csproj",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\HospitalManagement.API.csproj",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.API\\HospitalManagement.API.csproj",
+              "RelativeToolTip": "HospitalManagement.API\\HospitalManagement.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T02:13:27.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HospitalManagement.API.csproj",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.API.csproj",
+              "RelativeDocumentMoniker": "HospitalManagement.API.csproj",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.API.csproj",
+              "RelativeToolTip": "HospitalManagement.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T01:45:57.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HospitalManagement.Domain.csproj",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain.csproj",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain.csproj",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain.csproj",
+              "RelativeToolTip": "HospitalManagement.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T01:32:52.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\User.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:19:54.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\DTOs\\TokenDto.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\DTOs\\TokenDto.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\DTOs\\TokenDto.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\DTOs\\TokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:21:35.241Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:19:43.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Appointment.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Entities\\Appointment.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\Appointment.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Entities\\Appointment.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\Appointment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:10:09.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Doctor.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Entities\\Doctor.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\Doctor.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Entities\\Doctor.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\Doctor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:00:51.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Entities\\Patient.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Entities\\Patient.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Entities\\Patient.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\Entities\\Patient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:01:27.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAppointmentService.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Interfaces\\IAppointmentService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Interfaces\\IAppointmentService.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Interfaces\\IAppointmentService.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\Interfaces\\IAppointmentService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA4wA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:17:22.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HospitalManagement.Application.csproj",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\HospitalManagement.Application.csproj",
+              "RelativeDocumentMoniker": "HospitalManagement.Application\\HospitalManagement.Application.csproj",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\HospitalManagement.Application.csproj",
+              "RelativeToolTip": "HospitalManagement.Application\\HospitalManagement.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T01:06:28.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Interfaces\\IApplicationDbContext.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Interfaces\\IApplicationDbContext.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\Interfaces\\IApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T01:15:29.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HospitalManagement.Domain.csproj",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\HospitalManagement.Domain.csproj",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\HospitalManagement.Domain.csproj",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\HospitalManagement.Domain.csproj",
+              "RelativeToolTip": "HospitalManagement.Domain\\HospitalManagement.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T01:05:04.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HospitalManagement.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj",
+              "RelativeToolTip": "HospitalManagement.Infrastructure\\HospitalManagement.Infrastructure.csproj",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-05T01:01:39.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "HospitalDbContext.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Infrastructure\\Data\\HospitalDbContext.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Infrastructure\\Data\\HospitalDbContext.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Infrastructure\\Data\\HospitalDbContext.cs",
+              "RelativeToolTip": "HospitalManagement.Infrastructure\\Data\\HospitalDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:58:06.961Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Interfaces\\IPatientService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Interfaces\\IPatientService.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Interfaces\\IPatientService.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\Interfaces\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:51:35.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IDoctorService.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Interfaces\\IDoctorService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\Interfaces\\IDoctorService.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Domain\\Interfaces\\IDoctorService.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\Interfaces\\IDoctorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:51:24.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppointmentDto.cs",
+              "DocumentMoniker": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\DTOs\\AppointmentDto.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Application\\DTOs\\AppointmentDto.cs",
+              "ToolTip": "D:\\HMS(1) - Copy\\HospitalManagement.Application\\DTOs\\AppointmentDto.cs",
+              "RelativeToolTip": "HospitalManagement.Application\\DTOs\\AppointmentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T00:45:17.228Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

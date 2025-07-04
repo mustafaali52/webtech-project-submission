@@ -1,0 +1,35 @@
+<h2>{{ isEdit ? 'Edit Appointment' : 'Create Appointment' }}</h2>
+
+<form (ngSubmit)="onSubmit()">
+  <label>Appointment Date:</label><br />
+  <input
+    type="datetime-local"
+    [(ngModel)]="appointment.appointmentDate"
+    name="appointmentDate"
+    required
+  /><br /><br />
+
+  <label>Select Patient:</label><br />
+  <select
+    [(ngModel)]="appointment.patientId"
+    name="patientId"
+    required
+  >
+    <option *ngFor="let patient of patients" [value]="patient.id">
+      {{ patient.fullName }}
+    </option>
+  </select><br /><br />
+
+  <label>Select Doctor:</label><br />
+  <select
+    [(ngModel)]="appointment.doctorId"
+    name="doctorId"
+    required
+  >
+    <option *ngFor="let doctor of doctors" [value]="doctor.id">
+      {{ doctor.name }}
+    </option>
+  </select><br /><br />
+
+  <button type="submit">{{ isEdit ? 'Update' : 'Create' }}</button>
+</form>

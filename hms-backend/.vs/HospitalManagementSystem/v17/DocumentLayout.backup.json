@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Hospital_Management_System\\hms-backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|d:\\hospital_management_system\\hms-backend\\hospitalmanagement.api\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\controllers\\doctorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|d:\\hospital_management_system\\hms-backend\\hospitalmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|d:\\hospital_management_system\\hms-backend\\hospitalmanagement.api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\controllers\\appointmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|d:\\hospital_management_system\\hms-backend\\hospitalmanagement.application\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\interfaces\\ipatientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|d:\\hospital_management_system\\hms-backend\\hospitalmanagement.application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C20BAA7-E9CE-4EE9-B538-F5C4A562E60C}|HospitalManagement.Application\\HospitalManagement.Application.csproj|solutionrelative:hospitalmanagement.application\\services\\patientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|d:\\hospital_management_system\\hms-backend\\hospitalmanagement.api\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|d:\\hospital_management_system\\hms-backend\\hospitalmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8B976AF-8961-46DB-8760-A69141448FFE}|HospitalManagement.API\\HospitalManagement.API.csproj|solutionrelative:hospitalmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|d:\\hospital_management_system\\hms-backend\\hospitalmanagement.domain\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C986A325-61A6-4E58-9437-29B864AC8A11}|HospitalManagement.Domain\\HospitalManagement.Domain.csproj|solutionrelative:hospitalmanagement.domain\\dtos\\tokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientService.cs",
+              "DocumentMoniker": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.Application\\Services\\PatientService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Application\\Services\\PatientService.cs",
+              "ToolTip": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.Application\\Services\\PatientService.cs",
+              "RelativeToolTip": "HospitalManagement.Application\\Services\\PatientService.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:07:06.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IPatientService.cs",
+              "DocumentMoniker": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.Application\\Interfaces\\IPatientService.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Application\\Interfaces\\IPatientService.cs",
+              "ToolTip": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.Application\\Interfaces\\IPatientService.cs",
+              "RelativeToolTip": "HospitalManagement.Application\\Interfaces\\IPatientService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T15:05:51.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentsController.cs",
+              "DocumentMoniker": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.API\\Controllers\\AppointmentsController.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\Controllers\\AppointmentsController.cs",
+              "ToolTip": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.API\\Controllers\\AppointmentsController.cs",
+              "RelativeToolTip": "HospitalManagement.API\\Controllers\\AppointmentsController.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAIwA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T13:29:10.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PatientsController.cs",
+              "DocumentMoniker": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.API\\Controllers\\PatientsController.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\Controllers\\PatientsController.cs",
+              "ToolTip": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.API\\Controllers\\PatientsController.cs",
+              "RelativeToolTip": "HospitalManagement.API\\Controllers\\PatientsController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowGEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T13:26:25.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DoctorsController.cs",
+              "DocumentMoniker": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.API\\Controllers\\DoctorsController.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\Controllers\\DoctorsController.cs",
+              "ToolTip": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.API\\Controllers\\DoctorsController.cs",
+              "RelativeToolTip": "HospitalManagement.API\\Controllers\\DoctorsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T13:25:00.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TokenDto.cs",
+              "DocumentMoniker": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.Domain\\DTOs\\TokenDto.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.Domain\\DTOs\\TokenDto.cs",
+              "ToolTip": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.Domain\\DTOs\\TokenDto.cs",
+              "RelativeToolTip": "HospitalManagement.Domain\\DTOs\\TokenDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T20:06:45.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HospitalManagement.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAWwDsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T20:03:12.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.API\\Program.cs",
+              "RelativeDocumentMoniker": "HospitalManagement.API\\Program.cs",
+              "ToolTip": "D:\\Hospital_Management_System\\hms-backend\\HospitalManagement.API\\Program.cs",
+              "RelativeToolTip": "HospitalManagement.API\\Program.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAuwNgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T17:01:19.184Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

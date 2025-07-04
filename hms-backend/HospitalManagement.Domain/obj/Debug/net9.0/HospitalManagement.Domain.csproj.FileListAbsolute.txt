@@ -1,0 +1,61 @@
+D:\HospitalManagementSystem\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.deps.json
+D:\HospitalManagementSystem\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HospitalManagementSystem\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HospitalManagementSystem\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.csproj.AssemblyReference.cache
+D:\HospitalManagementSystem\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\HospitalManagementSystem\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.AssemblyInfoInputs.cache
+D:\HospitalManagementSystem\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.AssemblyInfo.cs
+D:\HospitalManagementSystem\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.csproj.CoreCompileInputs.cache
+D:\HospitalManagementSystem\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HospitalManagementSystem\HospitalManagement.Domain\obj\Debug\net9.0\refint\HospitalManagement.Domain.dll
+D:\HospitalManagementSystem\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HospitalManagementSystem\HospitalManagement.Domain\obj\Debug\net9.0\ref\HospitalManagement.Domain.dll
+D:\HMS(1)\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.deps.json
+D:\HMS(1)\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HMS(1)\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HMS(1)\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.csproj.AssemblyReference.cache
+D:\HMS(1)\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\HMS(1)\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.AssemblyInfoInputs.cache
+D:\HMS(1)\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.AssemblyInfo.cs
+D:\HMS(1)\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.csproj.CoreCompileInputs.cache
+D:\HMS(1)\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HMS(1)\HospitalManagement.Domain\obj\Debug\net9.0\refint\HospitalManagement.Domain.dll
+D:\HMS(1)\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HMS(1)\HospitalManagement.Domain\obj\Debug\net9.0\ref\HospitalManagement.Domain.dll
+D:\HMS(1) - Copy\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.deps.json
+D:\HMS(1) - Copy\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HMS(1) - Copy\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HMS(1) - Copy\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.csproj.AssemblyReference.cache
+D:\HMS(1) - Copy\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\HMS(1) - Copy\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.AssemblyInfoInputs.cache
+D:\HMS(1) - Copy\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.AssemblyInfo.cs
+D:\HMS(1) - Copy\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.csproj.CoreCompileInputs.cache
+D:\HMS(1) - Copy\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HMS(1) - Copy\HospitalManagement.Domain\obj\Debug\net9.0\refint\HospitalManagement.Domain.dll
+D:\HMS(1) - Copy\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HMS(1) - Copy\HospitalManagement.Domain\obj\Debug\net9.0\ref\HospitalManagement.Domain.dll
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.deps.json
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.csproj.AssemblyReference.cache
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.AssemblyInfoInputs.cache
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.AssemblyInfo.cs
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.csproj.CoreCompileInputs.cache
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\refint\HospitalManagement.Domain.dll
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\ref\HospitalManagement.Domain.dll
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.deps.json
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.dll
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\bin\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.csproj.AssemblyReference.cache
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.AssemblyInfoInputs.cache
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.AssemblyInfo.cs
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.csproj.CoreCompileInputs.cache
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.dll
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\refint\HospitalManagement.Domain.dll
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\ref\HospitalManagement.Domain.dll
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Domain\obj\Debug\net9.0\HospitalManagement.Domain.sourcelink.json

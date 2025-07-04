@@ -1,0 +1,31 @@
+<h2>{{ isEditMode ? 'Edit Doctor' : 'Add Doctor' }}</h2>
+
+<form [formGroup]="doctorForm" (ngSubmit)="onSubmit()">
+  <div>
+    <label>Name:</label>
+    <input formControlName="name" />
+    <span *ngIf="doctorForm.get('name')?.invalid && doctorForm.get('name')?.touched">Required</span>
+  </div>
+
+  <div>
+    <label>Specialization:</label>
+    <input formControlName="specialization" />
+    <span *ngIf="doctorForm.get('specialization')?.invalid && doctorForm.get('specialization')?.touched">Required</span>
+  </div>
+
+  <div>
+    <label>Contact Number:</label>
+    <input formControlName="contactNumber" />
+    <span *ngIf="doctorForm.get('contactNumber')?.invalid && doctorForm.get('contactNumber')?.touched">Valid number required</span>
+  </div>
+
+  <div>
+    <label>Email:</label>
+    <input formControlName="email" />
+    <span *ngIf="doctorForm.get('email')?.invalid && doctorForm.get('email')?.touched">Valid email required</span>
+  </div>
+
+  <button type="submit" [disabled]="doctorForm.invalid">
+    {{ isEditMode ? 'Update' : 'Create' }}
+  </button>
+</form>

@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\HospitalManagement.API",
+    "\\HospitalManagement.Application",
+    "\\HospitalManagement.Application\\Services",
+    "\\HospitalManagement.Domain",
+    "\\HospitalManagement.Domain\\Entities"
+  ],
+  "SelectedNode": "\\HospitalManagement.API\\appsettings.json",
+  "PreviewInSolutionExplorer": false
+}

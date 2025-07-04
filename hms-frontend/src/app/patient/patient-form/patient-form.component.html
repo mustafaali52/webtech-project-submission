@@ -1,0 +1,18 @@
+<h2>Create Patient</h2>
+<form (ngSubmit)="onSubmit()">
+  <label>Full Name:</label>
+  <input type="text" [(ngModel)]="patient.fullName" name="fullName" required />
+
+  <label>Date of Birth:</label>
+  <input type="date" [(ngModel)]="patient.dateOfBirth" name="dateOfBirth" required />
+
+  <label>Gender:</label>
+  <select [(ngModel)]="patient.gender" name="gender" required>
+    <option value="">--Select--</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+  </select>
+
+  <button type="submit">Submit</button>
+</form>

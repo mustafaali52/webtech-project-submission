@@ -1,0 +1,46 @@
+<div class="container mt-4">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="mb-0">Patients</h2>
+
+    <!-- Show Add button only for Admins -->
+    <a *ngIf="userRole === 'Admin'" routerLink="/patients/add" class="btn btn-success">Add Patient</a>
+  </div>
+
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped">
+      <thead class="table-dark">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Date of Birth</th>
+          <th>Gender</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let patient of patients">
+          <td>{{ patient.id }}</td>  
+          <td>{{ patient.fullName }}</td>
+          <td>{{ patient.dateOfBirth | date }}</td>
+          <td>{{ patient.gender }}</td>
+          <td>
+            <!-- Show Edit/Delete only for Admin -->
+            <ng-container *ngIf="userRole === 'Admin'; else readOnly">
+              <button [routerLink]="['/patients/edit', patient.id]" class="btn btn-primary btn-sm me-2">Edit</button>
+              <button (click)="deletePatient(patient.id!)" class="btn btn-danger btn-sm">Delete</button>
+            </ng-container>
+
+            <!-- For non-admins -->
+            <ng-template #readOnly>
+              <span class="text-muted">Read-Only</span>
+            </ng-template>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="mt-3">
+    <a routerLink="/dashboard" class="btn btn-secondary">Back to Dashboard</a>
+  </div>
+</div>

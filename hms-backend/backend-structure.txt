@@ -1,0 +1,633 @@
+Folder PATH listing for volume New Volume
+Volume serial number is C2E7-506E
+D:.
+¦   backend-structure.txt
+¦   HospitalManagement.API.csproj
+¦   HospitalManagement.Domain.csproj
+¦   HospitalManagementSystem.sln
+¦   Program.cs
+¦   
++---.vs
+¦   ¦   ProjectSettings.json
+¦   ¦   slnx.sqlite
+¦   ¦   VSWorkspaceState.json
+¦   ¦   
+¦   +---hms-backend
+¦   ¦   +---CopilotIndices
+¦   ¦   ¦   +---17.14.670.39694
+¦   ¦   ¦           CodeChunks.db
+¦   ¦   ¦           SemanticSymbols.db
+¦   ¦   ¦           
+¦   ¦   +---FileContentIndex
+¦   ¦   ¦       667aa930-eaed-4c48-84af-9398eae5b1ce.vsidx
+¦   ¦   ¦       
+¦   ¦   +---v17
+¦   ¦           DocumentLayout.backup.json
+¦   ¦           DocumentLayout.json
+¦   ¦           
+¦   +---HospitalManagementSystem
+¦   ¦   +---CopilotIndices
+¦   ¦   ¦   +---17.14.670.39694
+¦   ¦   ¦           CodeChunks.db
+¦   ¦   ¦           CodeChunks.db-shm
+¦   ¦   ¦           CodeChunks.db-wal
+¦   ¦   ¦           SemanticSymbols.db
+¦   ¦   ¦           SemanticSymbols.db-shm
+¦   ¦   ¦           SemanticSymbols.db-wal
+¦   ¦   ¦           
+¦   ¦   +---DesignTimeBuild
+¦   ¦   ¦       .dtbcache.v2
+¦   ¦   ¦       
+¦   ¦   +---FileContentIndex
+¦   ¦   ¦       182f3fed-e1c0-4ae3-a3d9-67567419cfba.vsidx
+¦   ¦   ¦       
+¦   ¦   +---v17
+¦   ¦           .futdcache.v2
+¦   ¦           DocumentLayout.backup.json
+¦   ¦           DocumentLayout.json
+¦   ¦           
+¦   +---ProjectEvaluation
+¦           hospitalmanagementsystem.metadata.v9.bin
+¦           hospitalmanagementsystem.projects.v9.bin
+¦           hospitalmanagementsystem.strings.v9.bin
+¦           
++---bin
+¦   +---Debug
+¦   ¦   +---net9.0
+¦   +---Release
+¦       +---net9.0
++---HospitalManagement.API
+¦   ¦   appsettings.Development.json
+¦   ¦   appsettings.json
+¦   ¦   HospitalManagement.API.csproj
+¦   ¦   HospitalManagement.API.csproj.user
+¦   ¦   HospitalManagement.API.http
+¦   ¦   Program.cs
+¦   ¦   
+¦   +---bin
+¦   ¦   +---Debug
+¦   ¦   ¦   +---net9.0
+¦   ¦   ¦       ¦   appsettings.Development.json
+¦   ¦   ¦       ¦   appsettings.json
+¦   ¦   ¦       ¦   AutoMapper.Collection.dll
+¦   ¦   ¦       ¦   AutoMapper.dll
+¦   ¦   ¦       ¦   AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+¦   ¦   ¦       ¦   Azure.Core.dll
+¦   ¦   ¦       ¦   Azure.Identity.dll
+¦   ¦   ¦       ¦   BCrypt.Net-Next.dll
+¦   ¦   ¦       ¦   FluentValidation.AspNetCore.dll
+¦   ¦   ¦       ¦   FluentValidation.DependencyInjectionExtensions.dll
+¦   ¦   ¦       ¦   FluentValidation.dll
+¦   ¦   ¦       ¦   HospitalManagement.API.deps.json
+¦   ¦   ¦       ¦   HospitalManagement.API.dll
+¦   ¦   ¦       ¦   HospitalManagement.API.exe
+¦   ¦   ¦       ¦   HospitalManagement.API.pdb
+¦   ¦   ¦       ¦   HospitalManagement.API.runtimeconfig.json
+¦   ¦   ¦       ¦   HospitalManagement.API.staticwebassets.endpoints.json
+¦   ¦   ¦       ¦   HospitalManagement.API.xml
+¦   ¦   ¦       ¦   HospitalManagement.Application.dll
+¦   ¦   ¦       ¦   HospitalManagement.Application.pdb
+¦   ¦   ¦       ¦   HospitalManagement.Domain.dll
+¦   ¦   ¦       ¦   HospitalManagement.Domain.pdb
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.dll
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.pdb
+¦   ¦   ¦       ¦   Humanizer.dll
+¦   ¦   ¦       ¦   Microsoft.AspNetCore.Authentication.JwtBearer.dll
+¦   ¦   ¦       ¦   Microsoft.AspNetCore.Mvc.Versioning.dll
+¦   ¦   ¦       ¦   Microsoft.Bcl.AsyncInterfaces.dll
+¦   ¦   ¦       ¦   Microsoft.Build.Locator.dll
+¦   ¦   ¦       ¦   Microsoft.CodeAnalysis.CSharp.dll
+¦   ¦   ¦       ¦   Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+¦   ¦   ¦       ¦   Microsoft.CodeAnalysis.dll
+¦   ¦   ¦       ¦   Microsoft.CodeAnalysis.Workspaces.dll
+¦   ¦   ¦       ¦   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+¦   ¦   ¦       ¦   Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+¦   ¦   ¦       ¦   Microsoft.Data.SqlClient.dll
+¦   ¦   ¦       ¦   Microsoft.EntityFrameworkCore.Abstractions.dll
+¦   ¦   ¦       ¦   Microsoft.EntityFrameworkCore.Design.dll
+¦   ¦   ¦       ¦   Microsoft.EntityFrameworkCore.dll
+¦   ¦   ¦       ¦   Microsoft.EntityFrameworkCore.Relational.dll
+¦   ¦   ¦       ¦   Microsoft.EntityFrameworkCore.SqlServer.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Caching.Abstractions.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Caching.Memory.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Configuration.Abstractions.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Configuration.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Configuration.FileExtensions.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Configuration.Json.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.DependencyInjection.Abstractions.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.DependencyInjection.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.DependencyModel.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Diagnostics.Abstractions.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Diagnostics.HealthChecks.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.FileProviders.Abstractions.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.FileProviders.Physical.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.FileSystemGlobbing.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Hosting.Abstractions.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Logging.Abstractions.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Logging.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Options.dll
+¦   ¦   ¦       ¦   Microsoft.Extensions.Primitives.dll
+¦   ¦   ¦       ¦   Microsoft.Identity.Client.dll
+¦   ¦   ¦       ¦   Microsoft.Identity.Client.Extensions.Msal.dll
+¦   ¦   ¦       ¦   Microsoft.IdentityModel.Abstractions.dll
+¦   ¦   ¦       ¦   Microsoft.IdentityModel.JsonWebTokens.dll
+¦   ¦   ¦       ¦   Microsoft.IdentityModel.Logging.dll
+¦   ¦   ¦       ¦   Microsoft.IdentityModel.Protocols.dll
+¦   ¦   ¦       ¦   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+¦   ¦   ¦       ¦   Microsoft.IdentityModel.Tokens.dll
+¦   ¦   ¦       ¦   Microsoft.OpenApi.dll
+¦   ¦   ¦       ¦   Microsoft.SqlServer.Server.dll
+¦   ¦   ¦       ¦   Microsoft.Win32.SystemEvents.dll
+¦   ¦   ¦       ¦   Mono.TextTemplating.dll
+¦   ¦   ¦       ¦   Swashbuckle.AspNetCore.Swagger.dll
+¦   ¦   ¦       ¦   Swashbuckle.AspNetCore.SwaggerGen.dll
+¦   ¦   ¦       ¦   Swashbuckle.AspNetCore.SwaggerUI.dll
+¦   ¦   ¦       ¦   System.ClientModel.dll
+¦   ¦   ¦       ¦   System.CodeDom.dll
+¦   ¦   ¦       ¦   System.Composition.AttributedModel.dll
+¦   ¦   ¦       ¦   System.Composition.Convention.dll
+¦   ¦   ¦       ¦   System.Composition.Hosting.dll
+¦   ¦   ¦       ¦   System.Composition.Runtime.dll
+¦   ¦   ¦       ¦   System.Composition.TypedParts.dll
+¦   ¦   ¦       ¦   System.Configuration.ConfigurationManager.dll
+¦   ¦   ¦       ¦   System.Drawing.Common.dll
+¦   ¦   ¦       ¦   System.IdentityModel.Tokens.Jwt.dll
+¦   ¦   ¦       ¦   System.Memory.Data.dll
+¦   ¦   ¦       ¦   System.Runtime.Caching.dll
+¦   ¦   ¦       ¦   System.Security.Cryptography.ProtectedData.dll
+¦   ¦   ¦       ¦   System.Security.Permissions.dll
+¦   ¦   ¦       ¦   System.Windows.Extensions.dll
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---cs
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---de
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---es
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---fr
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---it
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---ja
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---ko
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---pl
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---pt-BR
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---ru
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---runtimes
+¦   ¦   ¦       ¦   +---unix
+¦   ¦   ¦       ¦   ¦   +---lib
+¦   ¦   ¦       ¦   ¦       +---net6.0
+¦   ¦   ¦       ¦   ¦               Microsoft.Data.SqlClient.dll
+¦   ¦   ¦       ¦   ¦               System.Drawing.Common.dll
+¦   ¦   ¦       ¦   ¦               
+¦   ¦   ¦       ¦   +---win
+¦   ¦   ¦       ¦   ¦   +---lib
+¦   ¦   ¦       ¦   ¦       +---net6.0
+¦   ¦   ¦       ¦   ¦               Microsoft.Data.SqlClient.dll
+¦   ¦   ¦       ¦   ¦               Microsoft.Win32.SystemEvents.dll
+¦   ¦   ¦       ¦   ¦               System.Drawing.Common.dll
+¦   ¦   ¦       ¦   ¦               System.Runtime.Caching.dll
+¦   ¦   ¦       ¦   ¦               System.Security.Cryptography.ProtectedData.dll
+¦   ¦   ¦       ¦   ¦               System.Windows.Extensions.dll
+¦   ¦   ¦       ¦   ¦               
+¦   ¦   ¦       ¦   +---win-arm
+¦   ¦   ¦       ¦   ¦   +---native
+¦   ¦   ¦       ¦   ¦           Microsoft.Data.SqlClient.SNI.dll
+¦   ¦   ¦       ¦   ¦           
+¦   ¦   ¦       ¦   +---win-arm64
+¦   ¦   ¦       ¦   ¦   +---native
+¦   ¦   ¦       ¦   ¦           Microsoft.Data.SqlClient.SNI.dll
+¦   ¦   ¦       ¦   ¦           
+¦   ¦   ¦       ¦   +---win-x64
+¦   ¦   ¦       ¦   ¦   +---native
+¦   ¦   ¦       ¦   ¦           Microsoft.Data.SqlClient.SNI.dll
+¦   ¦   ¦       ¦   ¦           
+¦   ¦   ¦       ¦   +---win-x86
+¦   ¦   ¦       ¦       +---native
+¦   ¦   ¦       ¦               Microsoft.Data.SqlClient.SNI.dll
+¦   ¦   ¦       ¦               
+¦   ¦   ¦       +---tr
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---zh-Hans
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦       ¦       Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---zh-Hant
+¦   ¦   ¦               Microsoft.CodeAnalysis.CSharp.resources.dll
+¦   ¦   ¦               Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+¦   ¦   ¦               Microsoft.CodeAnalysis.resources.dll
+¦   ¦   ¦               Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+¦   ¦   ¦               Microsoft.CodeAnalysis.Workspaces.resources.dll
+¦   ¦   ¦               
+¦   ¦   +---Release
+¦   ¦       +---net9.0
+¦   +---Controllers
+¦   ¦       AppointmentsController.cs
+¦   ¦       AuthController.cs
+¦   ¦       DoctorsController.cs
+¦   ¦       PatientsController.cs
+¦   ¦       
+¦   +---Middleware
+¦   ¦       GlobalExceptionHandler.cs
+¦   ¦       
+¦   +---obj
+¦   ¦   ¦   HospitalManagement.API.csproj.EntityFrameworkCore.targets
+¦   ¦   ¦   HospitalManagement.API.csproj.nuget.dgspec.json
+¦   ¦   ¦   HospitalManagement.API.csproj.nuget.g.props
+¦   ¦   ¦   HospitalManagement.API.csproj.nuget.g.targets
+¦   ¦   ¦   HospitalManagement.Infrastructure.EntityFrameworkCore.targets
+¦   ¦   ¦   project.assets.json
+¦   ¦   ¦   project.nuget.cache
+¦   ¦   ¦   
+¦   ¦   +---Debug
+¦   ¦   ¦   +---net9.0
+¦   ¦   ¦       ¦   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+¦   ¦   ¦       ¦   apphost.exe
+¦   ¦   ¦       ¦   Hospital.449D901D.Up2Date
+¦   ¦   ¦       ¦   HospitalManagement.API.AssemblyInfo.cs
+¦   ¦   ¦       ¦   HospitalManagement.API.AssemblyInfoInputs.cache
+¦   ¦   ¦       ¦   HospitalManagement.API.assets.cache
+¦   ¦   ¦       ¦   HospitalManagement.API.csproj.AssemblyReference.cache
+¦   ¦   ¦       ¦   HospitalManagement.API.csproj.CoreCompileInputs.cache
+¦   ¦   ¦       ¦   HospitalManagement.API.csproj.FileListAbsolute.txt
+¦   ¦   ¦       ¦   HospitalManagement.API.dll
+¦   ¦   ¦       ¦   HospitalManagement.API.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦   ¦       ¦   HospitalManagement.API.genruntimeconfig.cache
+¦   ¦   ¦       ¦   HospitalManagement.API.GlobalUsings.g.cs
+¦   ¦   ¦       ¦   HospitalManagement.API.MvcApplicationPartsAssemblyInfo.cache
+¦   ¦   ¦       ¦   HospitalManagement.API.MvcApplicationPartsAssemblyInfo.cs
+¦   ¦   ¦       ¦   HospitalManagement.API.pdb
+¦   ¦   ¦       ¦   HospitalManagement.API.xml
+¦   ¦   ¦       ¦   rbcswa.dswa.cache.json
+¦   ¦   ¦       ¦   rjsmcshtml.dswa.cache.json
+¦   ¦   ¦       ¦   rjsmrazor.dswa.cache.json
+¦   ¦   ¦       ¦   rpswa.dswa.cache.json
+¦   ¦   ¦       ¦   staticwebassets.build.endpoints.json
+¦   ¦   ¦       ¦   staticwebassets.build.json
+¦   ¦   ¦       ¦   staticwebassets.build.json.cache
+¦   ¦   ¦       ¦   staticwebassets.references.upToDateCheck.txt
+¦   ¦   ¦       ¦   staticwebassets.removed.txt
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---ref
+¦   ¦   ¦       ¦       HospitalManagement.API.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---refint
+¦   ¦   ¦       ¦       HospitalManagement.API.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---staticwebassets
+¦   ¦   +---Release
+¦   ¦       +---net9.0
+¦   ¦           ¦   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+¦   ¦           ¦   HospitalManagement.API.AssemblyInfo.cs
+¦   ¦           ¦   HospitalManagement.API.AssemblyInfoInputs.cache
+¦   ¦           ¦   HospitalManagement.API.assets.cache
+¦   ¦           ¦   HospitalManagement.API.csproj.AssemblyReference.cache
+¦   ¦           ¦   HospitalManagement.API.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦           ¦   HospitalManagement.API.GlobalUsings.g.cs
+¦   ¦           ¦   
+¦   ¦           +---ref
+¦   ¦           +---refint
+¦   +---Properties
+¦           launchSettings.json
+¦           
++---HospitalManagement.Application
+¦   ¦   Class1.cs
+¦   ¦   HospitalManagement.Application.csproj
+¦   ¦   
+¦   +---bin
+¦   ¦   +---Debug
+¦   ¦   ¦   +---net9.0
+¦   ¦   ¦           HospitalManagement.Application.deps.json
+¦   ¦   ¦           HospitalManagement.Application.dll
+¦   ¦   ¦           HospitalManagement.Application.pdb
+¦   ¦   ¦           HospitalManagement.Domain.dll
+¦   ¦   ¦           HospitalManagement.Domain.pdb
+¦   ¦   ¦           
+¦   ¦   +---Release
+¦   ¦       +---net9.0
+¦   +---DTOs
+¦   ¦       AppointmentDto.cs
+¦   ¦       AuthDtos.cs
+¦   ¦       DoctorDto.cs
+¦   ¦       PatientDtos.cs
+¦   ¦       
+¦   +---Interfaces
+¦   ¦       IAppointmentService.cs
+¦   ¦       IDoctorService.cs
+¦   ¦       IPatientService.cs
+¦   ¦       
+¦   +---Mapping
+¦   ¦       MappingProfile.cs
+¦   ¦       
+¦   +---obj
+¦   ¦   ¦   HospitalManagement.Application.csproj.nuget.dgspec.json
+¦   ¦   ¦   HospitalManagement.Application.csproj.nuget.g.props
+¦   ¦   ¦   HospitalManagement.Application.csproj.nuget.g.targets
+¦   ¦   ¦   project.assets.json
+¦   ¦   ¦   project.nuget.cache
+¦   ¦   ¦   
+¦   ¦   +---Debug
+¦   ¦   ¦   +---net9.0
+¦   ¦   ¦       ¦   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+¦   ¦   ¦       ¦   Hospital.86C33EBC.Up2Date
+¦   ¦   ¦       ¦   HospitalManagement.Application.AssemblyInfo.cs
+¦   ¦   ¦       ¦   HospitalManagement.Application.AssemblyInfoInputs.cache
+¦   ¦   ¦       ¦   HospitalManagement.Application.assets.cache
+¦   ¦   ¦       ¦   HospitalManagement.Application.csproj.AssemblyReference.cache
+¦   ¦   ¦       ¦   HospitalManagement.Application.csproj.CoreCompileInputs.cache
+¦   ¦   ¦       ¦   HospitalManagement.Application.csproj.FileListAbsolute.txt
+¦   ¦   ¦       ¦   HospitalManagement.Application.dll
+¦   ¦   ¦       ¦   HospitalManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦   ¦       ¦   HospitalManagement.Application.GlobalUsings.g.cs
+¦   ¦   ¦       ¦   HospitalManagement.Application.pdb
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---ref
+¦   ¦   ¦       ¦       HospitalManagement.Application.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---refint
+¦   ¦   ¦               HospitalManagement.Application.dll
+¦   ¦   ¦               
+¦   ¦   +---Release
+¦   ¦       +---net9.0
+¦   ¦           ¦   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+¦   ¦           ¦   HospitalManagement.Application.AssemblyInfo.cs
+¦   ¦           ¦   HospitalManagement.Application.AssemblyInfoInputs.cache
+¦   ¦           ¦   HospitalManagement.Application.assets.cache
+¦   ¦           ¦   HospitalManagement.Application.csproj.AssemblyReference.cache
+¦   ¦           ¦   HospitalManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦           ¦   HospitalManagement.Application.GlobalUsings.g.cs
+¦   ¦           ¦   
+¦   ¦           +---ref
+¦   ¦           +---refint
+¦   +---Services
+¦   ¦       AppointmentService.cs
+¦   ¦       AuthService.cs
+¦   ¦       DoctorService.cs
+¦   ¦       PatientService.cs
+¦   ¦       
+¦   +---Validators
+¦           AppointmentValidators.cs
+¦           DoctorValidators.cs
+¦           PatientValidators.cs
+¦           
++---HospitalManagement.Domain
+¦   ¦   Class1.cs
+¦   ¦   HospitalManagement.Domain.csproj
+¦   ¦   
+¦   +---.vs
+¦   ¦   ¦   ProjectSettings.json
+¦   ¦   ¦   slnx.sqlite
+¦   ¦   ¦   VSWorkspaceState.json
+¦   ¦   ¦   
+¦   ¦   +---HospitalManagement.Domain
+¦   ¦       +---copilot-chat
+¦   ¦       ¦   +---e1c15705
+¦   ¦       ¦       +---sessions
+¦   ¦       +---CopilotIndices
+¦   ¦       ¦   +---17.14.670.39694
+¦   ¦       ¦           CodeChunks.db
+¦   ¦       ¦           SemanticSymbols.db
+¦   ¦       ¦           
+¦   ¦       +---FileContentIndex
+¦   ¦       ¦       21eab384-7bff-48f5-9690-075d891f1377.vsidx
+¦   ¦       ¦       
+¦   ¦       +---v17
+¦   ¦               DocumentLayout.json
+¦   ¦               
+¦   +---bin
+¦   ¦   +---Debug
+¦   ¦   ¦   +---net9.0
+¦   ¦   ¦           HospitalManagement.Domain.deps.json
+¦   ¦   ¦           HospitalManagement.Domain.dll
+¦   ¦   ¦           HospitalManagement.Domain.pdb
+¦   ¦   ¦           
+¦   ¦   +---Release
+¦   ¦       +---net9.0
+¦   +---DTOs
+¦   ¦       TokenDto.cs
+¦   ¦       
+¦   +---Entities
+¦   ¦       Appointment.cs
+¦   ¦       Doctor.cs
+¦   ¦       Patient.cs
+¦   ¦       User.cs
+¦   ¦       
+¦   +---Exceptions
+¦   ¦       AppointmentValidationException.cs
+¦   ¦       EntityNotFoundException.cs
+¦   ¦       
+¦   +---Interfaces
+¦   ¦       IApplicationDbContext.cs
+¦   ¦       IAppointmentService.cs
+¦   ¦       IAuthService.cs
+¦   ¦       IDoctorService.cs
+¦   ¦       IPatientService.cs
+¦   ¦       
+¦   +---obj
+¦       ¦   HospitalManagement.Domain.csproj.nuget.dgspec.json
+¦       ¦   HospitalManagement.Domain.csproj.nuget.g.props
+¦       ¦   HospitalManagement.Domain.csproj.nuget.g.targets
+¦       ¦   project.assets.json
+¦       ¦   project.nuget.cache
+¦       ¦   
+¦       +---Debug
+¦       ¦   +---net9.0
+¦       ¦       ¦   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+¦       ¦       ¦   HospitalManagement.Domain.AssemblyInfo.cs
+¦       ¦       ¦   HospitalManagement.Domain.AssemblyInfoInputs.cache
+¦       ¦       ¦   HospitalManagement.Domain.assets.cache
+¦       ¦       ¦   HospitalManagement.Domain.csproj.AssemblyReference.cache
+¦       ¦       ¦   HospitalManagement.Domain.csproj.CoreCompileInputs.cache
+¦       ¦       ¦   HospitalManagement.Domain.csproj.FileListAbsolute.txt
+¦       ¦       ¦   HospitalManagement.Domain.dll
+¦       ¦       ¦   HospitalManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+¦       ¦       ¦   HospitalManagement.Domain.GlobalUsings.g.cs
+¦       ¦       ¦   HospitalManagement.Domain.pdb
+¦       ¦       ¦   
+¦       ¦       +---ref
+¦       ¦       ¦       HospitalManagement.Domain.dll
+¦       ¦       ¦       
+¦       ¦       +---refint
+¦       ¦               HospitalManagement.Domain.dll
+¦       ¦               
+¦       +---Release
+¦           +---net9.0
+¦               ¦   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+¦               ¦   HospitalManagement.Domain.AssemblyInfo.cs
+¦               ¦   HospitalManagement.Domain.AssemblyInfoInputs.cache
+¦               ¦   HospitalManagement.Domain.assets.cache
+¦               ¦   HospitalManagement.Domain.csproj.AssemblyReference.cache
+¦               ¦   HospitalManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+¦               ¦   HospitalManagement.Domain.GlobalUsings.g.cs
+¦               ¦   
+¦               +---ref
+¦               +---refint
++---HospitalManagement.Infrastructure
+¦   ¦   appsettings.json
+¦   ¦   Class1.cs
+¦   ¦   HospitalDbContextFactory.cs
+¦   ¦   HospitalManagement.Infrastructure.csproj
+¦   ¦   
+¦   +---bin
+¦   ¦   +---Debug
+¦   ¦   ¦   +---net9.0
+¦   ¦   ¦           HospitalManagement.Application.dll
+¦   ¦   ¦           HospitalManagement.Application.pdb
+¦   ¦   ¦           HospitalManagement.Domain.dll
+¦   ¦   ¦           HospitalManagement.Domain.pdb
+¦   ¦   ¦           HospitalManagement.Infrastructure.deps.json
+¦   ¦   ¦           HospitalManagement.Infrastructure.dll
+¦   ¦   ¦           HospitalManagement.Infrastructure.pdb
+¦   ¦   ¦           HospitalManagement.Infrastructure.runtimeconfig.json
+¦   ¦   ¦           
+¦   ¦   +---Release
+¦   ¦       +---net9.0
+¦   +---Data
+¦   ¦       HospitalDbContext.cs
+¦   ¦       
+¦   +---Migrations
+¦   ¦   ¦   20250604182600_InitialCreate.cs
+¦   ¦   ¦   20250604182600_InitialCreate.Designer.cs
+¦   ¦   ¦   20250604220155_AddDoctorEntity.cs
+¦   ¦   ¦   20250604220155_AddDoctorEntity.Designer.cs
+¦   ¦   ¦   20250604220259_UpdateAppointmentWithDoctor.cs
+¦   ¦   ¦   20250604220259_UpdateAppointmentWithDoctor.Designer.cs
+¦   ¦   ¦   HospitalDbContextModelSnapshot.cs
+¦   ¦   ¦   
+¦   ¦   +---ApplicationDb
+¦   ¦           20250612135908_AddUserTable.cs
+¦   ¦           20250612135908_AddUserTable.Designer.cs
+¦   ¦           ApplicationDbContextModelSnapshot.cs
+¦   ¦           
+¦   +---obj
+¦   ¦   ¦   HospitalManagement.Infrastructure.csproj.EntityFrameworkCore.targets
+¦   ¦   ¦   HospitalManagement.Infrastructure.csproj.nuget.dgspec.json
+¦   ¦   ¦   HospitalManagement.Infrastructure.csproj.nuget.g.props
+¦   ¦   ¦   HospitalManagement.Infrastructure.csproj.nuget.g.targets
+¦   ¦   ¦   project.assets.json
+¦   ¦   ¦   project.nuget.cache
+¦   ¦   ¦   
+¦   ¦   +---Debug
+¦   ¦   ¦   +---net9.0
+¦   ¦   ¦       ¦   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+¦   ¦   ¦       ¦   Hospital.04B4BFA6.Up2Date
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.AssemblyInfo.cs
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.AssemblyInfoInputs.cache
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.assets.cache
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.csproj.AssemblyReference.cache
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.csproj.CoreCompileInputs.cache
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.csproj.FileListAbsolute.txt
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.dll
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.genruntimeconfig.cache
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.GlobalUsings.g.cs
+¦   ¦   ¦       ¦   HospitalManagement.Infrastructure.pdb
+¦   ¦   ¦       ¦   
+¦   ¦   ¦       +---ref
+¦   ¦   ¦       ¦       HospitalManagement.Infrastructure.dll
+¦   ¦   ¦       ¦       
+¦   ¦   ¦       +---refint
+¦   ¦   ¦               HospitalManagement.Infrastructure.dll
+¦   ¦   ¦               
+¦   ¦   +---Release
+¦   ¦       +---net9.0
+¦   ¦           ¦   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+¦   ¦           ¦   HospitalManagement.Infrastructure.AssemblyInfo.cs
+¦   ¦           ¦   HospitalManagement.Infrastructure.AssemblyInfoInputs.cache
+¦   ¦           ¦   HospitalManagement.Infrastructure.assets.cache
+¦   ¦           ¦   HospitalManagement.Infrastructure.csproj.AssemblyReference.cache
+¦   ¦           ¦   HospitalManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+¦   ¦           ¦   HospitalManagement.Infrastructure.GlobalUsings.g.cs
+¦   ¦           ¦   
+¦   ¦           +---ref
+¦   ¦           +---refint
+¦   +---Persistence
+¦           ApplicationDbContext.cs
+¦           ApplicationDbContextFactory..cs
+¦           
++---obj
+    +---Debug
+    ¦   +---net9.0
+    ¦       ¦   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+    ¦       ¦   HospitalManagement.Domain.AssemblyInfo.cs
+    ¦       ¦   HospitalManagement.Domain.AssemblyInfoInputs.cache
+    ¦       ¦   HospitalManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+    ¦       ¦   HospitalManagement.Domain.GlobalUsings.g.cs
+    ¦       ¦   
+    ¦       +---ref
+    ¦       +---refint
+    +---Release
+        +---net9.0
+            ¦   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+            ¦   HospitalManagement.Domain.AssemblyInfo.cs
+            ¦   HospitalManagement.Domain.AssemblyInfoInputs.cache
+            ¦   HospitalManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+            ¦   HospitalManagement.Domain.GlobalUsings.g.cs
+            ¦   
+            +---ref
+            +---refint

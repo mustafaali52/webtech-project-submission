@@ -1,0 +1,76 @@
+D:\HospitalManagementSystem\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.deps.json
+D:\HospitalManagementSystem\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.dll
+D:\HospitalManagementSystem\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.pdb
+D:\HospitalManagementSystem\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HospitalManagementSystem\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HospitalManagementSystem\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.csproj.AssemblyReference.cache
+D:\HospitalManagementSystem\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\HospitalManagementSystem\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.AssemblyInfoInputs.cache
+D:\HospitalManagementSystem\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.AssemblyInfo.cs
+D:\HospitalManagementSystem\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.csproj.CoreCompileInputs.cache
+D:\HospitalManagementSystem\HospitalManagement.Application\obj\Debug\net9.0\Hospital.86C33EBC.Up2Date
+D:\HospitalManagementSystem\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.dll
+D:\HospitalManagementSystem\HospitalManagement.Application\obj\Debug\net9.0\refint\HospitalManagement.Application.dll
+D:\HospitalManagementSystem\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.pdb
+D:\HospitalManagementSystem\HospitalManagement.Application\obj\Debug\net9.0\ref\HospitalManagement.Application.dll
+D:\HMS(1)\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.deps.json
+D:\HMS(1)\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.dll
+D:\HMS(1)\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.pdb
+D:\HMS(1)\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HMS(1)\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HMS(1)\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.csproj.AssemblyReference.cache
+D:\HMS(1)\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\HMS(1)\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.AssemblyInfoInputs.cache
+D:\HMS(1)\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.AssemblyInfo.cs
+D:\HMS(1)\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.csproj.CoreCompileInputs.cache
+D:\HMS(1)\HospitalManagement.Application\obj\Debug\net9.0\Hospital.86C33EBC.Up2Date
+D:\HMS(1)\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.dll
+D:\HMS(1)\HospitalManagement.Application\obj\Debug\net9.0\refint\HospitalManagement.Application.dll
+D:\HMS(1)\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.pdb
+D:\HMS(1)\HospitalManagement.Application\obj\Debug\net9.0\ref\HospitalManagement.Application.dll
+D:\HMS(1) - Copy\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.deps.json
+D:\HMS(1) - Copy\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.dll
+D:\HMS(1) - Copy\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.pdb
+D:\HMS(1) - Copy\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HMS(1) - Copy\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HMS(1) - Copy\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.csproj.AssemblyReference.cache
+D:\HMS(1) - Copy\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\HMS(1) - Copy\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.AssemblyInfoInputs.cache
+D:\HMS(1) - Copy\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.AssemblyInfo.cs
+D:\HMS(1) - Copy\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.csproj.CoreCompileInputs.cache
+D:\HMS(1) - Copy\HospitalManagement.Application\obj\Debug\net9.0\Hospital.86C33EBC.Up2Date
+D:\HMS(1) - Copy\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.dll
+D:\HMS(1) - Copy\HospitalManagement.Application\obj\Debug\net9.0\refint\HospitalManagement.Application.dll
+D:\HMS(1) - Copy\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.pdb
+D:\HMS(1) - Copy\HospitalManagement.Application\obj\Debug\net9.0\ref\HospitalManagement.Application.dll
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.deps.json
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.dll
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.pdb
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Domain.dll
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.csproj.AssemblyReference.cache
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.AssemblyInfoInputs.cache
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.AssemblyInfo.cs
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.csproj.CoreCompileInputs.cache
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\Hospital.86C33EBC.Up2Date
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.dll
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\refint\HospitalManagement.Application.dll
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.pdb
+D:\HMS(1) - Copy\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\ref\HospitalManagement.Application.dll
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.deps.json
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.dll
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Application.pdb
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Domain.dll
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\bin\Debug\net9.0\HospitalManagement.Domain.pdb
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.csproj.AssemblyReference.cache
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.AssemblyInfoInputs.cache
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.AssemblyInfo.cs
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.csproj.CoreCompileInputs.cache
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\Hospital.86C33EBC.Up2Date
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.dll
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\refint\HospitalManagement.Application.dll
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.pdb
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\ref\HospitalManagement.Application.dll
+D:\Hospital_Management_System\hms-backend\HospitalManagement.Application\obj\Debug\net9.0\HospitalManagement.Application.sourcelink.json
