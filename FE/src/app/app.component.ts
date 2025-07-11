@@ -1,13 +1,22 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-// import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { Router } from '@angular/router';
+import { TokenService } from './shared/services/token.service';
+import { RouterModule } from '@angular/router'; // <-- Add this import
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true, // <-- Make sure this is present
+  imports: [RouterModule], // <-- Add RouterModule here
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
   title = 'quiz-game';
+
+  constructor(private tokenService: TokenService, private router: Router) {}
+
+  logout(): void {
+    this.tokenService.removeToken();
+    this.router.navigate(['login']);
+  }
 }
