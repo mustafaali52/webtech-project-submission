@@ -1,0 +1,10 @@
+namespace QUIZGAME.Dtos;
+
+public class TeacherDto
+{
+    public int Id { get; set; }
+    public string Username { get; set; }
+    public string Role { get; set; }
+    public string Password { get; set; }
+
+}

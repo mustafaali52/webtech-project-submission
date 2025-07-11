@@ -1,0 +1,207 @@
+<div class="student-quiz-container">
+
+  <!-- Join Quiz Step -->
+  <div *ngIf="currentStep === 'join'" class="join-quiz-section">
+    <mat-card class="join-quiz-card">
+      <mat-card-header>
+        <mat-card-title>
+          <mat-icon>quiz</mat-icon>
+          Join Quiz
+        </mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content>
+        <form [formGroup]="joinForm" (ngSubmit)="onJoinQuiz()">
+          <mat-form-field appearance="outline" class="full-width">
+            <mat-label>Quiz Password</mat-label>
+            <input matInput 
+                   formControlName="password" 
+                   placeholder="Enter quiz password"
+                   type="password"
+                   required>
+            <mat-icon matSuffix>lock</mat-icon>
+            <mat-error *ngIf="joinForm.get('password')?.hasError('required')">
+              Password is required
+            </mat-error>
+          </mat-form-field>
+
+          <div class="error-message" *ngIf="errorMessage">
+            <mat-icon>error</mat-icon>
+            {{ errorMessage }}
+          </div>
+
+          <div class="success-message" *ngIf="successMessage">
+            <mat-icon>check_circle</mat-icon>
+            {{ successMessage }}
+          </div>
+
+          <div class="form-actions">
+            <button mat-raised-button 
+                    color="primary" 
+                    type="submit" 
+                    [disabled]="loading"
+                    class="join-btn">
+              <mat-icon *ngIf="loading">hourglass_empty</mat-icon>
+              <mat-icon *ngIf="!loading">login</mat-icon>
+              {{ loading ? 'Joining...' : 'Join Quiz' }}
+            </button>
+          </div>
+        </form>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <!-- Quiz Taking Step -->
+  <div *ngIf="currentStep === 'quiz'" class="quiz-section">
+    <mat-card class="quiz-card">
+      <mat-card-header>
+        <mat-card-title>{{ quizData?.title }}</mat-card-title>
+        <mat-card-subtitle>
+          Question {{ currentQuestionIndex + 1 }} of {{ quizData?.totalQuestions }}
+        </mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content>
+        <!-- Progress Bar -->
+        <div class="progress-section">
+          <mat-progress-bar mode="determinate" [value]="progress"></mat-progress-bar>
+          <span class="progress-text">{{ progress | number:'1.0-0' }}% Complete</span>
+        </div>
+
+        <!-- Question -->
+        <div class="question-section" *ngIf="currentQuestion">
+          <h3 class="question-text">{{ currentQuestion.questionText }}</h3>
+
+          <form [formGroup]="quizForm" class="options-form">
+            <mat-radio-group formControlName="selectedOption" class="options-group">
+              <mat-radio-button 
+                [value]="1" 
+                (click)="onAnswerSelect(1)"
+                class="option-button">
+                <span class="option-label">A)</span>
+                <span class="option-text">{{ currentQuestion.option1 }}</span>
+              </mat-radio-button>
+
+              <mat-radio-button 
+                [value]="2" 
+                (click)="onAnswerSelect(2)"
+                class="option-button">
+                <span class="option-label">B)</span>
+                <span class="option-text">{{ currentQuestion.option2 }}</span>
+              </mat-radio-button>
+
+              <mat-radio-button 
+                [value]="3" 
+                (click)="onAnswerSelect(3)"
+                class="option-button">
+                <span class="option-label">C)</span>
+                <span class="option-text">{{ currentQuestion.option3 }}</span>
+              </mat-radio-button>
+
+              <mat-radio-button 
+                [value]="4" 
+                (click)="onAnswerSelect(4)"
+                class="option-button">
+                <span class="option-label">D)</span>
+                <span class="option-text">{{ currentQuestion.option4 }}</span>
+              </mat-radio-button>
+            </mat-radio-group>
+          </form>
+        </div>
+
+        <div class="error-message" *ngIf="errorMessage">
+          <mat-icon>error</mat-icon>
+          {{ errorMessage }}
+        </div>
+
+        <!-- Navigation -->
+        <div class="quiz-navigation">
+          <button mat-stroked-button 
+                  (click)="onPreviousQuestion()"
+                  [disabled]="currentQuestionIndex === 0"
+                  class="nav-btn">
+            <mat-icon>arrow_back</mat-icon>
+            Previous
+          </button>
+
+          <button mat-raised-button 
+                  color="primary"
+                  (click)="onNextQuestion()"
+                  [disabled]="!hasAnsweredCurrentQuestion || loading"
+                  class="nav-btn">
+            <mat-icon *ngIf="loading">hourglass_empty</mat-icon>
+            <mat-icon *ngIf="!loading && !isLastQuestion">arrow_forward</mat-icon>
+            <mat-icon *ngIf="!loading && isLastQuestion">send</mat-icon>
+            {{ loading ? 'Submitting...' : (isLastQuestion ? 'Submit Quiz' : 'Next') }}
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+  <!-- Result Step -->
+  <div *ngIf="currentStep === 'result'" class="result-section">
+    <mat-card class="result-card">
+      <mat-card-header>
+        <mat-card-title>
+          <mat-icon [color]="getScoreColor()">{{ getScoreIcon() }}</mat-icon>
+          Quiz Complete!
+        </mat-card-title>
+      </mat-card-header>
+
+      <mat-card-content>
+        <div class="result-details" *ngIf="quizResult">
+          <div class="score-display">
+            <h2 class="score-text">
+              {{ quizResult.score }} / {{ quizResult.totalQuestions }}
+            </h2>
+            <h3 class="percentage-text" [ngClass]="getScoreColor() + '-text'">
+              {{ quizResult.percentage }}%
+            </h3>
+          </div>
+
+          <div class="score-breakdown">
+            <div class="score-item">
+              <mat-icon color="primary">check_circle</mat-icon>
+              <span>Correct: {{ quizResult.score }}</span>
+            </div>
+            <div class="score-item">
+              <mat-icon color="warn">cancel</mat-icon>
+              <span>Incorrect: {{ quizResult.totalQuestions - quizResult.score }}</span>
+            </div>
+          </div>
+
+          <div class="performance-message">
+            <p *ngIf="quizResult.percentage >= 80" class="excellent-message">
+              🎉 Excellent work! You've mastered this topic!
+            </p>
+            <p *ngIf="quizResult.percentage >= 60 && quizResult.percentage < 80" class="good-message">
+              👍 Good job! You have a solid understanding!
+            </p>
+            <p *ngIf="quizResult.percentage < 60" class="needs-improvement-message">
+              📚 Keep studying! Practice makes perfect!
+            </p>
+          </div>
+        </div>
+
+        <div class="result-actions">
+          <button mat-stroked-button 
+                  (click)="onRetakeQuiz()"
+                  class="action-btn">
+            <mat-icon>refresh</mat-icon>
+            Take Another Quiz
+          </button>
+
+          <button mat-raised-button 
+                  color="primary"
+                  (click)="onViewHistory()"
+                  class="action-btn">
+            <mat-icon>history</mat-icon>
+            View History
+          </button>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+
+</div>

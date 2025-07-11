@@ -1,0 +1,30 @@
+.getmarks-container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 10px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .error-message, .no-data-message {
+    display: flex;
+    align-items: center;
+    color: #d32f2f;
+    font-weight: 600;
+    margin: 20px 0;
+
+    mat-icon {
+      margin-right: 8px;
+    }
+  }
+
+  table {
+    width: 100%;
+  }
+
+  mat-progress-spinner {
+    display: block;
+    margin: 40px auto;
+  }
+}

@@ -1,0 +1,82 @@
+<div class="signup-container">
+  <mat-card class="signup-card">
+    <mat-card-header>
+      <mat-card-title>Sign Up for Quiz App</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Username</mat-label>
+          <input matInput 
+                 formControlName="username" 
+                 placeholder="Enter your username"
+                 required>
+          <mat-error *ngIf="signupForm.get('username')?.hasError('required')">
+            Username is required
+          </mat-error>
+          <mat-error *ngIf="signupForm.get('username')?.hasError('minlength')">
+            Username must be at least 3 characters
+          </mat-error>
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Password</mat-label>
+          <input matInput 
+                 type="password" 
+                 formControlName="password" 
+                 placeholder="Enter your password"
+                 required>
+          <mat-error *ngIf="signupForm.get('password')?.hasError('required')">
+            Password is required
+          </mat-error>
+          <mat-error *ngIf="signupForm.get('password')?.hasError('minlength')">
+            Password must be at least 6 characters
+          </mat-error>
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Confirm Password</mat-label>
+          <input matInput 
+                 type="password" 
+                 formControlName="confirmPassword" 
+                 placeholder="Confirm your password"
+                 required>
+          <mat-error *ngIf="signupForm.get('confirmPassword')?.hasError('required')">
+            Please confirm your password
+          </mat-error>
+        </mat-form-field>
+        
+        <mat-form-field appearance="outline" class="full-width">
+          <mat-label>Role</mat-label>
+          <mat-select formControlName="role">
+            <mat-option value="Student">Student</mat-option>
+            <mat-option value="Teacher">Teacher</mat-option>
+          </mat-select>
+        </mat-form-field>
+        
+        <div class="error-message" *ngIf="errorMessage">
+          {{ errorMessage }}
+        </div>
+        
+        <div class="success-message" *ngIf="successMessage">
+          {{ successMessage }}
+        </div>
+        
+        <button mat-raised-button 
+                color="primary" 
+                type="submit" 
+                class="full-width signup-button">
+          Sign Up
+        </button>
+      </form>
+    </mat-card-content>
+    
+    <mat-card-actions>
+      <p class="login-link">
+        Already have an account? 
+        <a routerLink="/login">Login here</a>
+      </p>
+    </mat-card-actions>
+  </mat-card>
+</div>
