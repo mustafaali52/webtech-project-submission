@@ -48,7 +48,12 @@ export class LoginComponent {
       const { username, password, role } = this.loginForm.value;
       this.authService.login(username, password, role).subscribe({
         next: () => {
-          this.router.navigate(['/unauthorize']);
+          if (role === 'Student') {
+            this.router.navigate(['/takequiz']);
+          }
+          if (role === 'Teacher') {
+            this.router.navigate(['/createquiz']);
+          }
         },
         error: (error) => {
           console.log('Login failed', error);

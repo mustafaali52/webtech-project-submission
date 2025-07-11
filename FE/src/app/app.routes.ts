@@ -6,7 +6,7 @@ import { StudentGuard } from './shared/guards/student.guard';
 export const routes: Routes = [
     {
         path: '',
-        loadComponent: () => import('./attempt/getmarks/getmarks.component').then(m => m.GetmarksComponent)
+        loadComponent: () => import('./auth/login/login.component').then(m => m.LoginComponent)
     },
     {
         path: 'login',
